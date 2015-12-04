@@ -1,6 +1,5 @@
 {
   "name": "reactjs",
-  "version": "1.0.0",
   "description": "redux",
   "main": "index.js",
   "dependencies": {
