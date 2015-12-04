@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "redux-real-world-example",
   "version": "0.0.0",
   "description": "Redux real-world example",
@@ -14,6 +15,11 @@
     "url": "https://github.com/rackt/redux/issues"
   },
   "homepage": "http://rackt.github.io/redux",
+=======
+  "name": "reactjs",
+  "description": "redux",
+  "main": "index.js",
+>>>>>>> 7d8c0c1afbfce8d09ce46dc0911dad09ea9ea4a9
   "dependencies": {
     "history": "^1.9.0",
     "humps": "^0.6.0",

@@ -1,6 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'd:\\nodjs\\node.exe',
 1 verbose cli   'd:\\nodjs\\node_modules\\npm\\bin\\npm-cli.js',
+<<<<<<< HEAD
 1 verbose cli   'start' ]
 2 info using npm@2.14.7
 3 info using node@v4.2.1
@@ -37,3 +38,3605 @@
 18 error     npm owner ls redux-real-world-example
 18 error There is likely additional logging output above.
 19 verbose exit [ 1, true ]
+=======
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from e:\reactNative\reactRedux\package.json
+5 warn package.json reactjs@ No repository field.
+6 verbose install where, deps [ 'e:\\reactNative\\reactRedux',
+6 verbose install   [ 'css-loader',
+6 verbose install     'babel-loader',
+6 verbose install     'babel-plugin-react-transform',
+6 verbose install     'express',
+6 verbose install     'humps',
+6 verbose install     'autoprefixer-core',
+6 verbose install     'babel-core',
+6 verbose install     'history',
+6 verbose install     'concurrently',
+6 verbose install     'normalizr',
+6 verbose install     'isomorphic-fetch',
+6 verbose install     'lodash',
+6 verbose install     'postcss-loader',
+6 verbose install     'react-addons-transition-group',
+6 verbose install     'postcss-color-rebeccapurple',
+6 verbose install     'react-redux',
+6 verbose install     'material-ui',
+6 verbose install     'react-transform-hmr',
+6 verbose install     'react-dom',
+6 verbose install     'redux',
+6 verbose install     'redux-devtools',
+6 verbose install     'redux-devtools-dock-monitor',
+6 verbose install     'react-router',
+6 verbose install     'redux-logger',
+6 verbose install     'redux-devtools-log-monitor',
+6 verbose install     'redux-thunk',
+6 verbose install     'redux-router',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-middleware',
+6 verbose install     'webpack-hot-middleware',
+6 verbose install     'extract-text-webpack-plugin',
+6 verbose install     'react-dom_',
+6 verbose install     'react',
+6 verbose install     'react-tap-event-plugin',
+6 verbose install     'react_',
+6 verbose install     'style-loader' ] ]
+7 verbose install where, peers [ 'e:\\reactNative\\reactRedux', [] ]
+8 verbose installManyTop reading for lifecycle e:\reactNative\reactRedux\package.json
+9 info preinstall reactjs@
+10 verbose readDependencies loading dependencies from e:\reactNative\reactRedux\package.json
+11 silly cache add args [ 'css-loader@^0.23.0', null ]
+12 verbose cache add spec css-loader@^0.23.0
+13 silly cache add args [ 'babel-loader@^5.3.2', null ]
+14 verbose cache add spec babel-loader@^5.3.2
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'css-loader@^0.23.0',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'css-loader',
+15 silly cache add   rawSpec: '^0.23.0',
+15 silly cache add   spec: '>=0.23.0 <0.24.0',
+15 silly cache add   type: 'range' }
+16 silly addNamed css-loader@>=0.23.0 <0.24.0
+17 verbose addNamed ">=0.23.0 <0.24.0" is a valid semver range for css-loader
+18 silly addNameRange { name: 'css-loader', range: '>=0.23.0 <0.24.0', hasData: false }
+19 silly mapToRegistry name css-loader
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://registry.npmjs.org/
+22 silly mapToRegistry uri http://registry.npmjs.org/css-loader
+23 verbose addNameRange registry:http://registry.npmjs.org/css-loader not in flight; fetching
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'babel-loader@^5.3.2',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'babel-loader',
+24 silly cache add   rawSpec: '^5.3.2',
+24 silly cache add   spec: '>=5.3.2 <6.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed babel-loader@>=5.3.2 <6.0.0
+26 verbose addNamed ">=5.3.2 <6.0.0" is a valid semver range for babel-loader
+27 silly addNameRange { name: 'babel-loader', range: '>=5.3.2 <6.0.0', hasData: false }
+28 silly mapToRegistry name babel-loader
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry http://registry.npmjs.org/
+31 silly mapToRegistry uri http://registry.npmjs.org/babel-loader
+32 verbose addNameRange registry:http://registry.npmjs.org/babel-loader not in flight; fetching
+33 silly cache add args [ 'babel-plugin-react-transform@^1.1.1', null ]
+34 verbose cache add spec babel-plugin-react-transform@^1.1.1
+35 silly cache add parsed spec Result {
+35 silly cache add   raw: 'babel-plugin-react-transform@^1.1.1',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'babel-plugin-react-transform',
+35 silly cache add   rawSpec: '^1.1.1',
+35 silly cache add   spec: '>=1.1.1 <2.0.0',
+35 silly cache add   type: 'range' }
+36 silly addNamed babel-plugin-react-transform@>=1.1.1 <2.0.0
+37 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for babel-plugin-react-transform
+38 silly addNameRange { name: 'babel-plugin-react-transform',
+38 silly addNameRange   range: '>=1.1.1 <2.0.0',
+38 silly addNameRange   hasData: false }
+39 silly mapToRegistry name babel-plugin-react-transform
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry http://registry.npmjs.org/
+42 silly mapToRegistry uri http://registry.npmjs.org/babel-plugin-react-transform
+43 verbose addNameRange registry:http://registry.npmjs.org/babel-plugin-react-transform not in flight; fetching
+44 silly cache add args [ 'express@^4.13.3', null ]
+45 verbose cache add spec express@^4.13.3
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'express@^4.13.3',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'express',
+46 silly cache add   rawSpec: '^4.13.3',
+46 silly cache add   spec: '>=4.13.3 <5.0.0',
+46 silly cache add   type: 'range' }
+47 silly addNamed express@>=4.13.3 <5.0.0
+48 verbose addNamed ">=4.13.3 <5.0.0" is a valid semver range for express
+49 silly addNameRange { name: 'express', range: '>=4.13.3 <5.0.0', hasData: false }
+50 silly mapToRegistry name express
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://registry.npmjs.org/
+53 silly mapToRegistry uri http://registry.npmjs.org/express
+54 verbose addNameRange registry:http://registry.npmjs.org/express not in flight; fetching
+55 silly cache add args [ 'humps@^0.6.0', null ]
+56 verbose cache add spec humps@^0.6.0
+57 silly cache add parsed spec Result {
+57 silly cache add   raw: 'humps@^0.6.0',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'humps',
+57 silly cache add   rawSpec: '^0.6.0',
+57 silly cache add   spec: '>=0.6.0 <0.7.0',
+57 silly cache add   type: 'range' }
+58 silly addNamed humps@>=0.6.0 <0.7.0
+59 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for humps
+60 silly addNameRange { name: 'humps', range: '>=0.6.0 <0.7.0', hasData: false }
+61 silly mapToRegistry name humps
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry http://registry.npmjs.org/
+64 silly mapToRegistry uri http://registry.npmjs.org/humps
+65 verbose addNameRange registry:http://registry.npmjs.org/humps not in flight; fetching
+66 silly cache add args [ 'autoprefixer-core@^6.0.1', null ]
+67 verbose cache add spec autoprefixer-core@^6.0.1
+68 silly cache add parsed spec Result {
+68 silly cache add   raw: 'autoprefixer-core@^6.0.1',
+68 silly cache add   scope: null,
+68 silly cache add   name: 'autoprefixer-core',
+68 silly cache add   rawSpec: '^6.0.1',
+68 silly cache add   spec: '>=6.0.1 <7.0.0',
+68 silly cache add   type: 'range' }
+69 silly addNamed autoprefixer-core@>=6.0.1 <7.0.0
+70 verbose addNamed ">=6.0.1 <7.0.0" is a valid semver range for autoprefixer-core
+71 silly addNameRange { name: 'autoprefixer-core',
+71 silly addNameRange   range: '>=6.0.1 <7.0.0',
+71 silly addNameRange   hasData: false }
+72 silly mapToRegistry name autoprefixer-core
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry http://registry.npmjs.org/
+75 silly mapToRegistry uri http://registry.npmjs.org/autoprefixer-core
+76 verbose addNameRange registry:http://registry.npmjs.org/autoprefixer-core not in flight; fetching
+77 silly cache add args [ 'babel-core@^5.8.29', null ]
+78 verbose cache add spec babel-core@^5.8.29
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'babel-core@^5.8.29',
+79 silly cache add   scope: null,
+79 silly cache add   name: 'babel-core',
+79 silly cache add   rawSpec: '^5.8.29',
+79 silly cache add   spec: '>=5.8.29 <6.0.0',
+79 silly cache add   type: 'range' }
+80 silly addNamed babel-core@>=5.8.29 <6.0.0
+81 verbose addNamed ">=5.8.29 <6.0.0" is a valid semver range for babel-core
+82 silly addNameRange { name: 'babel-core', range: '>=5.8.29 <6.0.0', hasData: false }
+83 silly mapToRegistry name babel-core
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry http://registry.npmjs.org/
+86 silly mapToRegistry uri http://registry.npmjs.org/babel-core
+87 verbose addNameRange registry:http://registry.npmjs.org/babel-core not in flight; fetching
+88 silly cache add args [ 'history@^1.12.6', null ]
+89 verbose cache add spec history@^1.12.6
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'history@^1.12.6',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'history',
+90 silly cache add   rawSpec: '^1.12.6',
+90 silly cache add   spec: '>=1.12.6 <2.0.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed history@>=1.12.6 <2.0.0
+92 verbose addNamed ">=1.12.6 <2.0.0" is a valid semver range for history
+93 silly addNameRange { name: 'history', range: '>=1.12.6 <2.0.0', hasData: false }
+94 silly mapToRegistry name history
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry http://registry.npmjs.org/
+97 silly mapToRegistry uri http://registry.npmjs.org/history
+98 verbose addNameRange registry:http://registry.npmjs.org/history not in flight; fetching
+99 silly cache add args [ 'concurrently@^0.1.1', null ]
+100 verbose cache add spec concurrently@^0.1.1
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'concurrently@^0.1.1',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'concurrently',
+101 silly cache add   rawSpec: '^0.1.1',
+101 silly cache add   spec: '>=0.1.1 <0.2.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed concurrently@>=0.1.1 <0.2.0
+103 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for concurrently
+104 silly addNameRange { name: 'concurrently', range: '>=0.1.1 <0.2.0', hasData: false }
+105 silly mapToRegistry name concurrently
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry http://registry.npmjs.org/
+108 silly mapToRegistry uri http://registry.npmjs.org/concurrently
+109 verbose addNameRange registry:http://registry.npmjs.org/concurrently not in flight; fetching
+110 silly cache add args [ 'normalizr@^1.3.1', null ]
+111 verbose cache add spec normalizr@^1.3.1
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'normalizr@^1.3.1',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'normalizr',
+112 silly cache add   rawSpec: '^1.3.1',
+112 silly cache add   spec: '>=1.3.1 <2.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed normalizr@>=1.3.1 <2.0.0
+114 verbose addNamed ">=1.3.1 <2.0.0" is a valid semver range for normalizr
+115 silly addNameRange { name: 'normalizr', range: '>=1.3.1 <2.0.0', hasData: false }
+116 silly mapToRegistry name normalizr
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry http://registry.npmjs.org/
+119 silly mapToRegistry uri http://registry.npmjs.org/normalizr
+120 verbose addNameRange registry:http://registry.npmjs.org/normalizr not in flight; fetching
+121 silly cache add args [ 'isomorphic-fetch@^2.2.0', null ]
+122 verbose cache add spec isomorphic-fetch@^2.2.0
+123 silly cache add parsed spec Result {
+123 silly cache add   raw: 'isomorphic-fetch@^2.2.0',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'isomorphic-fetch',
+123 silly cache add   rawSpec: '^2.2.0',
+123 silly cache add   spec: '>=2.2.0 <3.0.0',
+123 silly cache add   type: 'range' }
+124 silly addNamed isomorphic-fetch@>=2.2.0 <3.0.0
+125 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for isomorphic-fetch
+126 silly addNameRange { name: 'isomorphic-fetch',
+126 silly addNameRange   range: '>=2.2.0 <3.0.0',
+126 silly addNameRange   hasData: false }
+127 silly mapToRegistry name isomorphic-fetch
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry http://registry.npmjs.org/
+130 silly mapToRegistry uri http://registry.npmjs.org/isomorphic-fetch
+131 verbose addNameRange registry:http://registry.npmjs.org/isomorphic-fetch not in flight; fetching
+132 silly cache add args [ 'lodash@^3.10.1', null ]
+133 verbose cache add spec lodash@^3.10.1
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'lodash@^3.10.1',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'lodash',
+134 silly cache add   rawSpec: '^3.10.1',
+134 silly cache add   spec: '>=3.10.1 <4.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed lodash@>=3.10.1 <4.0.0
+136 verbose addNamed ">=3.10.1 <4.0.0" is a valid semver range for lodash
+137 silly addNameRange { name: 'lodash', range: '>=3.10.1 <4.0.0', hasData: false }
+138 silly mapToRegistry name lodash
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry http://registry.npmjs.org/
+141 silly mapToRegistry uri http://registry.npmjs.org/lodash
+142 verbose addNameRange registry:http://registry.npmjs.org/lodash not in flight; fetching
+143 silly cache add args [ 'postcss-loader@^0.8.0', null ]
+144 verbose cache add spec postcss-loader@^0.8.0
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'postcss-loader@^0.8.0',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'postcss-loader',
+145 silly cache add   rawSpec: '^0.8.0',
+145 silly cache add   spec: '>=0.8.0 <0.9.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed postcss-loader@>=0.8.0 <0.9.0
+147 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for postcss-loader
+148 silly addNameRange { name: 'postcss-loader',
+148 silly addNameRange   range: '>=0.8.0 <0.9.0',
+148 silly addNameRange   hasData: false }
+149 silly mapToRegistry name postcss-loader
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry http://registry.npmjs.org/
+152 silly mapToRegistry uri http://registry.npmjs.org/postcss-loader
+153 verbose addNameRange registry:http://registry.npmjs.org/postcss-loader not in flight; fetching
+154 silly cache add args [ 'react-addons-transition-group@^0.14.3', null ]
+155 verbose cache add spec react-addons-transition-group@^0.14.3
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'react-addons-transition-group@^0.14.3',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'react-addons-transition-group',
+156 silly cache add   rawSpec: '^0.14.3',
+156 silly cache add   spec: '>=0.14.3 <0.15.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed react-addons-transition-group@>=0.14.3 <0.15.0
+158 verbose addNamed ">=0.14.3 <0.15.0" is a valid semver range for react-addons-transition-group
+159 silly addNameRange { name: 'react-addons-transition-group',
+159 silly addNameRange   range: '>=0.14.3 <0.15.0',
+159 silly addNameRange   hasData: false }
+160 silly mapToRegistry name react-addons-transition-group
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry http://registry.npmjs.org/
+163 silly mapToRegistry uri http://registry.npmjs.org/react-addons-transition-group
+164 verbose addNameRange registry:http://registry.npmjs.org/react-addons-transition-group not in flight; fetching
+165 silly cache add args [ 'postcss-color-rebeccapurple@^2.0.0', null ]
+166 verbose cache add spec postcss-color-rebeccapurple@^2.0.0
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'postcss-color-rebeccapurple@^2.0.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'postcss-color-rebeccapurple',
+167 silly cache add   rawSpec: '^2.0.0',
+167 silly cache add   spec: '>=2.0.0 <3.0.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed postcss-color-rebeccapurple@>=2.0.0 <3.0.0
+169 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for postcss-color-rebeccapurple
+170 silly addNameRange { name: 'postcss-color-rebeccapurple',
+170 silly addNameRange   range: '>=2.0.0 <3.0.0',
+170 silly addNameRange   hasData: false }
+171 silly mapToRegistry name postcss-color-rebeccapurple
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry http://registry.npmjs.org/
+174 silly mapToRegistry uri http://registry.npmjs.org/postcss-color-rebeccapurple
+175 verbose addNameRange registry:http://registry.npmjs.org/postcss-color-rebeccapurple not in flight; fetching
+176 silly cache add args [ 'react-redux@^2.1.2', null ]
+177 verbose cache add spec react-redux@^2.1.2
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'react-redux@^2.1.2',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'react-redux',
+178 silly cache add   rawSpec: '^2.1.2',
+178 silly cache add   spec: '>=2.1.2 <3.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed react-redux@>=2.1.2 <3.0.0
+180 verbose addNamed ">=2.1.2 <3.0.0" is a valid semver range for react-redux
+181 silly addNameRange { name: 'react-redux', range: '>=2.1.2 <3.0.0', hasData: false }
+182 silly mapToRegistry name react-redux
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry http://registry.npmjs.org/
+185 silly mapToRegistry uri http://registry.npmjs.org/react-redux
+186 verbose addNameRange registry:http://registry.npmjs.org/react-redux not in flight; fetching
+187 silly cache add args [ 'material-ui@^0.13.4', null ]
+188 verbose cache add spec material-ui@^0.13.4
+189 silly cache add parsed spec Result {
+189 silly cache add   raw: 'material-ui@^0.13.4',
+189 silly cache add   scope: null,
+189 silly cache add   name: 'material-ui',
+189 silly cache add   rawSpec: '^0.13.4',
+189 silly cache add   spec: '>=0.13.4 <0.14.0',
+189 silly cache add   type: 'range' }
+190 silly addNamed material-ui@>=0.13.4 <0.14.0
+191 verbose addNamed ">=0.13.4 <0.14.0" is a valid semver range for material-ui
+192 silly addNameRange { name: 'material-ui',
+192 silly addNameRange   range: '>=0.13.4 <0.14.0',
+192 silly addNameRange   hasData: false }
+193 silly mapToRegistry name material-ui
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry http://registry.npmjs.org/
+196 silly mapToRegistry uri http://registry.npmjs.org/material-ui
+197 verbose addNameRange registry:http://registry.npmjs.org/material-ui not in flight; fetching
+198 silly cache add args [ 'react-transform-hmr@^1.0.1', null ]
+199 verbose cache add spec react-transform-hmr@^1.0.1
+200 silly cache add parsed spec Result {
+200 silly cache add   raw: 'react-transform-hmr@^1.0.1',
+200 silly cache add   scope: null,
+200 silly cache add   name: 'react-transform-hmr',
+200 silly cache add   rawSpec: '^1.0.1',
+200 silly cache add   spec: '>=1.0.1 <2.0.0',
+200 silly cache add   type: 'range' }
+201 silly addNamed react-transform-hmr@>=1.0.1 <2.0.0
+202 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for react-transform-hmr
+203 silly addNameRange { name: 'react-transform-hmr',
+203 silly addNameRange   range: '>=1.0.1 <2.0.0',
+203 silly addNameRange   hasData: false }
+204 silly mapToRegistry name react-transform-hmr
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry http://registry.npmjs.org/
+207 silly mapToRegistry uri http://registry.npmjs.org/react-transform-hmr
+208 verbose addNameRange registry:http://registry.npmjs.org/react-transform-hmr not in flight; fetching
+209 silly cache add args [ 'react-dom@^0.14.3', null ]
+210 verbose cache add spec react-dom@^0.14.3
+211 silly cache add parsed spec Result {
+211 silly cache add   raw: 'react-dom@^0.14.3',
+211 silly cache add   scope: null,
+211 silly cache add   name: 'react-dom',
+211 silly cache add   rawSpec: '^0.14.3',
+211 silly cache add   spec: '>=0.14.3 <0.15.0',
+211 silly cache add   type: 'range' }
+212 silly addNamed react-dom@>=0.14.3 <0.15.0
+213 verbose addNamed ">=0.14.3 <0.15.0" is a valid semver range for react-dom
+214 silly addNameRange { name: 'react-dom', range: '>=0.14.3 <0.15.0', hasData: false }
+215 silly mapToRegistry name react-dom
+216 silly mapToRegistry using default registry
+217 silly mapToRegistry registry http://registry.npmjs.org/
+218 silly mapToRegistry uri http://registry.npmjs.org/react-dom
+219 verbose addNameRange registry:http://registry.npmjs.org/react-dom not in flight; fetching
+220 silly cache add args [ 'redux@^3.0.4', null ]
+221 verbose cache add spec redux@^3.0.4
+222 silly cache add parsed spec Result {
+222 silly cache add   raw: 'redux@^3.0.4',
+222 silly cache add   scope: null,
+222 silly cache add   name: 'redux',
+222 silly cache add   rawSpec: '^3.0.4',
+222 silly cache add   spec: '>=3.0.4 <4.0.0',
+222 silly cache add   type: 'range' }
+223 silly addNamed redux@>=3.0.4 <4.0.0
+224 verbose addNamed ">=3.0.4 <4.0.0" is a valid semver range for redux
+225 silly addNameRange { name: 'redux', range: '>=3.0.4 <4.0.0', hasData: false }
+226 silly mapToRegistry name redux
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry http://registry.npmjs.org/
+229 silly mapToRegistry uri http://registry.npmjs.org/redux
+230 verbose addNameRange registry:http://registry.npmjs.org/redux not in flight; fetching
+231 silly cache add args [ 'redux-devtools@^3.0.0-beta-3', null ]
+232 verbose cache add spec redux-devtools@^3.0.0-beta-3
+233 silly cache add parsed spec Result {
+233 silly cache add   raw: 'redux-devtools@^3.0.0-beta-3',
+233 silly cache add   scope: null,
+233 silly cache add   name: 'redux-devtools',
+233 silly cache add   rawSpec: '^3.0.0-beta-3',
+233 silly cache add   spec: '>=3.0.0-beta-3 <4.0.0',
+233 silly cache add   type: 'range' }
+234 silly addNamed redux-devtools@>=3.0.0-beta-3 <4.0.0
+235 verbose addNamed ">=3.0.0-beta-3 <4.0.0" is a valid semver range for redux-devtools
+236 silly addNameRange { name: 'redux-devtools',
+236 silly addNameRange   range: '>=3.0.0-beta-3 <4.0.0',
+236 silly addNameRange   hasData: false }
+237 silly mapToRegistry name redux-devtools
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry http://registry.npmjs.org/
+240 silly mapToRegistry uri http://registry.npmjs.org/redux-devtools
+241 verbose addNameRange registry:http://registry.npmjs.org/redux-devtools not in flight; fetching
+242 silly cache add args [ 'redux-devtools-dock-monitor@^1.0.0-beta-3', null ]
+243 verbose cache add spec redux-devtools-dock-monitor@^1.0.0-beta-3
+244 silly cache add parsed spec Result {
+244 silly cache add   raw: 'redux-devtools-dock-monitor@^1.0.0-beta-3',
+244 silly cache add   scope: null,
+244 silly cache add   name: 'redux-devtools-dock-monitor',
+244 silly cache add   rawSpec: '^1.0.0-beta-3',
+244 silly cache add   spec: '>=1.0.0-beta-3 <2.0.0',
+244 silly cache add   type: 'range' }
+245 silly addNamed redux-devtools-dock-monitor@>=1.0.0-beta-3 <2.0.0
+246 verbose addNamed ">=1.0.0-beta-3 <2.0.0" is a valid semver range for redux-devtools-dock-monitor
+247 silly addNameRange { name: 'redux-devtools-dock-monitor',
+247 silly addNameRange   range: '>=1.0.0-beta-3 <2.0.0',
+247 silly addNameRange   hasData: false }
+248 silly mapToRegistry name redux-devtools-dock-monitor
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry http://registry.npmjs.org/
+251 silly mapToRegistry uri http://registry.npmjs.org/redux-devtools-dock-monitor
+252 verbose addNameRange registry:http://registry.npmjs.org/redux-devtools-dock-monitor not in flight; fetching
+253 silly cache add args [ 'react-router@^1.0.0-rc3', null ]
+254 verbose cache add spec react-router@^1.0.0-rc3
+255 silly cache add parsed spec Result {
+255 silly cache add   raw: 'react-router@^1.0.0-rc3',
+255 silly cache add   scope: null,
+255 silly cache add   name: 'react-router',
+255 silly cache add   rawSpec: '^1.0.0-rc3',
+255 silly cache add   spec: '>=1.0.0-rc3 <2.0.0',
+255 silly cache add   type: 'range' }
+256 silly addNamed react-router@>=1.0.0-rc3 <2.0.0
+257 verbose addNamed ">=1.0.0-rc3 <2.0.0" is a valid semver range for react-router
+258 silly addNameRange { name: 'react-router',
+258 silly addNameRange   range: '>=1.0.0-rc3 <2.0.0',
+258 silly addNameRange   hasData: false }
+259 silly mapToRegistry name react-router
+260 silly mapToRegistry using default registry
+261 silly mapToRegistry registry http://registry.npmjs.org/
+262 silly mapToRegistry uri http://registry.npmjs.org/react-router
+263 verbose addNameRange registry:http://registry.npmjs.org/react-router not in flight; fetching
+264 silly cache add args [ 'redux-logger@^2.0.4', null ]
+265 verbose cache add spec redux-logger@^2.0.4
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'redux-logger@^2.0.4',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'redux-logger',
+266 silly cache add   rawSpec: '^2.0.4',
+266 silly cache add   spec: '>=2.0.4 <3.0.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed redux-logger@>=2.0.4 <3.0.0
+268 verbose addNamed ">=2.0.4 <3.0.0" is a valid semver range for redux-logger
+269 silly addNameRange { name: 'redux-logger', range: '>=2.0.4 <3.0.0', hasData: false }
+270 silly mapToRegistry name redux-logger
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry http://registry.npmjs.org/
+273 silly mapToRegistry uri http://registry.npmjs.org/redux-logger
+274 verbose addNameRange registry:http://registry.npmjs.org/redux-logger not in flight; fetching
+275 silly cache add args [ 'redux-devtools-log-monitor@^1.0.0-beta-3', null ]
+276 verbose cache add spec redux-devtools-log-monitor@^1.0.0-beta-3
+277 silly cache add parsed spec Result {
+277 silly cache add   raw: 'redux-devtools-log-monitor@^1.0.0-beta-3',
+277 silly cache add   scope: null,
+277 silly cache add   name: 'redux-devtools-log-monitor',
+277 silly cache add   rawSpec: '^1.0.0-beta-3',
+277 silly cache add   spec: '>=1.0.0-beta-3 <2.0.0',
+277 silly cache add   type: 'range' }
+278 silly addNamed redux-devtools-log-monitor@>=1.0.0-beta-3 <2.0.0
+279 verbose addNamed ">=1.0.0-beta-3 <2.0.0" is a valid semver range for redux-devtools-log-monitor
+280 silly addNameRange { name: 'redux-devtools-log-monitor',
+280 silly addNameRange   range: '>=1.0.0-beta-3 <2.0.0',
+280 silly addNameRange   hasData: false }
+281 silly mapToRegistry name redux-devtools-log-monitor
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry http://registry.npmjs.org/
+284 silly mapToRegistry uri http://registry.npmjs.org/redux-devtools-log-monitor
+285 verbose addNameRange registry:http://registry.npmjs.org/redux-devtools-log-monitor not in flight; fetching
+286 silly cache add args [ 'redux-thunk@^0.1.0', null ]
+287 verbose cache add spec redux-thunk@^0.1.0
+288 silly cache add parsed spec Result {
+288 silly cache add   raw: 'redux-thunk@^0.1.0',
+288 silly cache add   scope: null,
+288 silly cache add   name: 'redux-thunk',
+288 silly cache add   rawSpec: '^0.1.0',
+288 silly cache add   spec: '>=0.1.0 <0.2.0',
+288 silly cache add   type: 'range' }
+289 silly addNamed redux-thunk@>=0.1.0 <0.2.0
+290 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for redux-thunk
+291 silly addNameRange { name: 'redux-thunk', range: '>=0.1.0 <0.2.0', hasData: false }
+292 silly mapToRegistry name redux-thunk
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry http://registry.npmjs.org/
+295 silly mapToRegistry uri http://registry.npmjs.org/redux-thunk
+296 verbose addNameRange registry:http://registry.npmjs.org/redux-thunk not in flight; fetching
+297 silly cache add args [ 'redux-router@^1.0.0-beta3', null ]
+298 verbose cache add spec redux-router@^1.0.0-beta3
+299 silly cache add parsed spec Result {
+299 silly cache add   raw: 'redux-router@^1.0.0-beta3',
+299 silly cache add   scope: null,
+299 silly cache add   name: 'redux-router',
+299 silly cache add   rawSpec: '^1.0.0-beta3',
+299 silly cache add   spec: '>=1.0.0-beta3 <2.0.0',
+299 silly cache add   type: 'range' }
+300 silly addNamed redux-router@>=1.0.0-beta3 <2.0.0
+301 verbose addNamed ">=1.0.0-beta3 <2.0.0" is a valid semver range for redux-router
+302 silly addNameRange { name: 'redux-router',
+302 silly addNameRange   range: '>=1.0.0-beta3 <2.0.0',
+302 silly addNameRange   hasData: false }
+303 silly mapToRegistry name redux-router
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry http://registry.npmjs.org/
+306 silly mapToRegistry uri http://registry.npmjs.org/redux-router
+307 verbose addNameRange registry:http://registry.npmjs.org/redux-router not in flight; fetching
+308 silly cache add args [ 'webpack@^1.12.2', null ]
+309 verbose cache add spec webpack@^1.12.2
+310 silly cache add parsed spec Result {
+310 silly cache add   raw: 'webpack@^1.12.2',
+310 silly cache add   scope: null,
+310 silly cache add   name: 'webpack',
+310 silly cache add   rawSpec: '^1.12.2',
+310 silly cache add   spec: '>=1.12.2 <2.0.0',
+310 silly cache add   type: 'range' }
+311 silly addNamed webpack@>=1.12.2 <2.0.0
+312 verbose addNamed ">=1.12.2 <2.0.0" is a valid semver range for webpack
+313 silly addNameRange { name: 'webpack', range: '>=1.12.2 <2.0.0', hasData: false }
+314 silly mapToRegistry name webpack
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry http://registry.npmjs.org/
+317 silly mapToRegistry uri http://registry.npmjs.org/webpack
+318 verbose addNameRange registry:http://registry.npmjs.org/webpack not in flight; fetching
+319 silly cache add args [ 'webpack-dev-middleware@^1.2.0', null ]
+320 verbose cache add spec webpack-dev-middleware@^1.2.0
+321 silly cache add parsed spec Result {
+321 silly cache add   raw: 'webpack-dev-middleware@^1.2.0',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'webpack-dev-middleware',
+321 silly cache add   rawSpec: '^1.2.0',
+321 silly cache add   spec: '>=1.2.0 <2.0.0',
+321 silly cache add   type: 'range' }
+322 silly addNamed webpack-dev-middleware@>=1.2.0 <2.0.0
+323 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for webpack-dev-middleware
+324 silly addNameRange { name: 'webpack-dev-middleware',
+324 silly addNameRange   range: '>=1.2.0 <2.0.0',
+324 silly addNameRange   hasData: false }
+325 silly mapToRegistry name webpack-dev-middleware
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry http://registry.npmjs.org/
+328 silly mapToRegistry uri http://registry.npmjs.org/webpack-dev-middleware
+329 verbose addNameRange registry:http://registry.npmjs.org/webpack-dev-middleware not in flight; fetching
+330 silly cache add args [ 'webpack-hot-middleware@^2.4.1', null ]
+331 verbose cache add spec webpack-hot-middleware@^2.4.1
+332 silly cache add parsed spec Result {
+332 silly cache add   raw: 'webpack-hot-middleware@^2.4.1',
+332 silly cache add   scope: null,
+332 silly cache add   name: 'webpack-hot-middleware',
+332 silly cache add   rawSpec: '^2.4.1',
+332 silly cache add   spec: '>=2.4.1 <3.0.0',
+332 silly cache add   type: 'range' }
+333 silly addNamed webpack-hot-middleware@>=2.4.1 <3.0.0
+334 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for webpack-hot-middleware
+335 silly addNameRange { name: 'webpack-hot-middleware',
+335 silly addNameRange   range: '>=2.4.1 <3.0.0',
+335 silly addNameRange   hasData: false }
+336 silly mapToRegistry name webpack-hot-middleware
+337 silly mapToRegistry using default registry
+338 silly mapToRegistry registry http://registry.npmjs.org/
+339 silly mapToRegistry uri http://registry.npmjs.org/webpack-hot-middleware
+340 verbose addNameRange registry:http://registry.npmjs.org/webpack-hot-middleware not in flight; fetching
+341 silly cache add args [ 'extract-text-webpack-plugin@^0.9.1', null ]
+342 verbose cache add spec extract-text-webpack-plugin@^0.9.1
+343 silly cache add parsed spec Result {
+343 silly cache add   raw: 'extract-text-webpack-plugin@^0.9.1',
+343 silly cache add   scope: null,
+343 silly cache add   name: 'extract-text-webpack-plugin',
+343 silly cache add   rawSpec: '^0.9.1',
+343 silly cache add   spec: '>=0.9.1 <0.10.0',
+343 silly cache add   type: 'range' }
+344 silly addNamed extract-text-webpack-plugin@>=0.9.1 <0.10.0
+345 verbose addNamed ">=0.9.1 <0.10.0" is a valid semver range for extract-text-webpack-plugin
+346 silly addNameRange { name: 'extract-text-webpack-plugin',
+346 silly addNameRange   range: '>=0.9.1 <0.10.0',
+346 silly addNameRange   hasData: false }
+347 silly mapToRegistry name extract-text-webpack-plugin
+348 silly mapToRegistry using default registry
+349 silly mapToRegistry registry http://registry.npmjs.org/
+350 silly mapToRegistry uri http://registry.npmjs.org/extract-text-webpack-plugin
+351 verbose addNameRange registry:http://registry.npmjs.org/extract-text-webpack-plugin not in flight; fetching
+352 silly cache add args [ 'react-dom_@^0.14.3', null ]
+353 verbose cache add spec react-dom_@^0.14.3
+354 silly cache add parsed spec Result {
+354 silly cache add   raw: 'react-dom_@^0.14.3',
+354 silly cache add   scope: null,
+354 silly cache add   name: 'react-dom_',
+354 silly cache add   rawSpec: '^0.14.3',
+354 silly cache add   spec: '>=0.14.3 <0.15.0',
+354 silly cache add   type: 'range' }
+355 silly addNamed react-dom_@>=0.14.3 <0.15.0
+356 verbose addNamed ">=0.14.3 <0.15.0" is a valid semver range for react-dom_
+357 silly addNameRange { name: 'react-dom_', range: '>=0.14.3 <0.15.0', hasData: false }
+358 silly mapToRegistry name react-dom_
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry http://registry.npmjs.org/
+361 silly mapToRegistry uri http://registry.npmjs.org/react-dom_
+362 verbose addNameRange registry:http://registry.npmjs.org/react-dom_ not in flight; fetching
+363 silly cache add args [ 'react@^0.14.3', null ]
+364 verbose cache add spec react@^0.14.3
+365 silly cache add parsed spec Result {
+365 silly cache add   raw: 'react@^0.14.3',
+365 silly cache add   scope: null,
+365 silly cache add   name: 'react',
+365 silly cache add   rawSpec: '^0.14.3',
+365 silly cache add   spec: '>=0.14.3 <0.15.0',
+365 silly cache add   type: 'range' }
+366 silly addNamed react@>=0.14.3 <0.15.0
+367 verbose addNamed ">=0.14.3 <0.15.0" is a valid semver range for react
+368 silly addNameRange { name: 'react', range: '>=0.14.3 <0.15.0', hasData: false }
+369 silly mapToRegistry name react
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry http://registry.npmjs.org/
+372 silly mapToRegistry uri http://registry.npmjs.org/react
+373 verbose addNameRange registry:http://registry.npmjs.org/react not in flight; fetching
+374 silly cache add args [ 'react-tap-event-plugin@^0.2.1', null ]
+375 verbose cache add spec react-tap-event-plugin@^0.2.1
+376 silly cache add parsed spec Result {
+376 silly cache add   raw: 'react-tap-event-plugin@^0.2.1',
+376 silly cache add   scope: null,
+376 silly cache add   name: 'react-tap-event-plugin',
+376 silly cache add   rawSpec: '^0.2.1',
+376 silly cache add   spec: '>=0.2.1 <0.3.0',
+376 silly cache add   type: 'range' }
+377 silly addNamed react-tap-event-plugin@>=0.2.1 <0.3.0
+378 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for react-tap-event-plugin
+379 silly addNameRange { name: 'react-tap-event-plugin',
+379 silly addNameRange   range: '>=0.2.1 <0.3.0',
+379 silly addNameRange   hasData: false }
+380 silly mapToRegistry name react-tap-event-plugin
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry http://registry.npmjs.org/
+383 silly mapToRegistry uri http://registry.npmjs.org/react-tap-event-plugin
+384 verbose addNameRange registry:http://registry.npmjs.org/react-tap-event-plugin not in flight; fetching
+385 silly cache add args [ 'react_@^0.14.3', null ]
+386 verbose cache add spec react_@^0.14.3
+387 silly cache add parsed spec Result {
+387 silly cache add   raw: 'react_@^0.14.3',
+387 silly cache add   scope: null,
+387 silly cache add   name: 'react_',
+387 silly cache add   rawSpec: '^0.14.3',
+387 silly cache add   spec: '>=0.14.3 <0.15.0',
+387 silly cache add   type: 'range' }
+388 silly addNamed react_@>=0.14.3 <0.15.0
+389 verbose addNamed ">=0.14.3 <0.15.0" is a valid semver range for react_
+390 silly addNameRange { name: 'react_', range: '>=0.14.3 <0.15.0', hasData: false }
+391 silly mapToRegistry name react_
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry http://registry.npmjs.org/
+394 silly mapToRegistry uri http://registry.npmjs.org/react_
+395 verbose addNameRange registry:http://registry.npmjs.org/react_ not in flight; fetching
+396 silly cache add args [ 'style-loader@^0.13.0', null ]
+397 verbose cache add spec style-loader@^0.13.0
+398 silly cache add parsed spec Result {
+398 silly cache add   raw: 'style-loader@^0.13.0',
+398 silly cache add   scope: null,
+398 silly cache add   name: 'style-loader',
+398 silly cache add   rawSpec: '^0.13.0',
+398 silly cache add   spec: '>=0.13.0 <0.14.0',
+398 silly cache add   type: 'range' }
+399 silly addNamed style-loader@>=0.13.0 <0.14.0
+400 verbose addNamed ">=0.13.0 <0.14.0" is a valid semver range for style-loader
+401 silly addNameRange { name: 'style-loader',
+401 silly addNameRange   range: '>=0.13.0 <0.14.0',
+401 silly addNameRange   hasData: false }
+402 silly mapToRegistry name style-loader
+403 silly mapToRegistry using default registry
+404 silly mapToRegistry registry http://registry.npmjs.org/
+405 silly mapToRegistry uri http://registry.npmjs.org/style-loader
+406 verbose addNameRange registry:http://registry.npmjs.org/style-loader not in flight; fetching
+407 verbose request uri http://registry.npmjs.org/react-dom_
+408 verbose request no auth needed
+409 info attempt registry request try #1 at 13:29:51
+410 verbose request id 01954279fe02cd28
+411 http request GET http://registry.npmjs.org/react-dom_
+412 verbose request uri http://registry.npmjs.org/react_
+413 verbose request no auth needed
+414 info attempt registry request try #1 at 13:29:51
+415 http request GET http://registry.npmjs.org/react_
+416 verbose request uri http://registry.npmjs.org/css-loader
+417 verbose request no auth needed
+418 info attempt registry request try #1 at 13:29:51
+419 verbose etag "9KOWUIZYN5LB6W700QTPKBOK1"
+420 http request GET http://registry.npmjs.org/css-loader
+421 verbose request uri http://registry.npmjs.org/babel-loader
+422 verbose request no auth needed
+423 info attempt registry request try #1 at 13:29:51
+424 verbose etag "XALLTRYZCE96U2MH9BC5VORY"
+425 http request GET http://registry.npmjs.org/babel-loader
+426 verbose request uri http://registry.npmjs.org/babel-plugin-react-transform
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 13:29:51
+429 verbose etag "7HQA9AHU18TLBM6VPH28PODH7"
+430 http request GET http://registry.npmjs.org/babel-plugin-react-transform
+431 verbose request uri http://registry.npmjs.org/autoprefixer-core
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 13:29:51
+434 verbose etag "D8RWB3GN21148AR117RYK4RTW"
+435 http request GET http://registry.npmjs.org/autoprefixer-core
+436 verbose request uri http://registry.npmjs.org/humps
+437 verbose request no auth needed
+438 info attempt registry request try #1 at 13:29:51
+439 verbose etag "CPITUGUIYZKBCN0WHXNG081KE"
+440 http request GET http://registry.npmjs.org/humps
+441 verbose request uri http://registry.npmjs.org/babel-core
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 13:29:51
+444 verbose etag "9P5MPJPVFAL18G060QRLDM2G8"
+445 http request GET http://registry.npmjs.org/babel-core
+446 verbose request uri http://registry.npmjs.org/concurrently
+447 verbose request no auth needed
+448 info attempt registry request try #1 at 13:29:51
+449 verbose etag "4WEA7CJBRFDANONB2EYDDGNG7"
+450 http request GET http://registry.npmjs.org/concurrently
+451 verbose request uri http://registry.npmjs.org/isomorphic-fetch
+452 verbose request no auth needed
+453 info attempt registry request try #1 at 13:29:51
+454 verbose etag "77HRAFJB0ZLFKQI7W2UBN12LW"
+455 http request GET http://registry.npmjs.org/isomorphic-fetch
+456 verbose request uri http://registry.npmjs.org/history
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 13:29:51
+459 verbose etag "CYFGDN21V6HKXL6P9JEL5WKTI"
+460 http request GET http://registry.npmjs.org/history
+461 verbose request uri http://registry.npmjs.org/lodash
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 13:29:51
+464 verbose etag "E9LEHKGBS54RD8UDGZ25GFI1Y"
+465 http request GET http://registry.npmjs.org/lodash
+466 verbose request uri http://registry.npmjs.org/normalizr
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 13:29:51
+469 verbose etag "1XIEPMTZ5KY2S37P43HCACBXD"
+470 http request GET http://registry.npmjs.org/normalizr
+471 verbose request uri http://registry.npmjs.org/postcss-loader
+472 verbose request no auth needed
+473 info attempt registry request try #1 at 13:29:51
+474 verbose etag "5KOHY0ENJGQYCM4UT80HG70M3"
+475 http request GET http://registry.npmjs.org/postcss-loader
+476 verbose request uri http://registry.npmjs.org/postcss-color-rebeccapurple
+477 verbose request no auth needed
+478 info attempt registry request try #1 at 13:29:51
+479 verbose etag "CRWER21SN8RVQ4VP4NHID61YK"
+480 http request GET http://registry.npmjs.org/postcss-color-rebeccapurple
+481 verbose request uri http://registry.npmjs.org/react-redux
+482 verbose request no auth needed
+483 info attempt registry request try #1 at 13:29:51
+484 verbose etag "3IJ9XUJ6Q8GD9OPXW3E3LWVMV"
+485 http request GET http://registry.npmjs.org/react-redux
+486 verbose request uri http://registry.npmjs.org/express
+487 verbose request no auth needed
+488 info attempt registry request try #1 at 13:29:51
+489 verbose etag "5PSI0DC1K62UL488K2H03MSNZ"
+490 http request GET http://registry.npmjs.org/express
+491 verbose request uri http://registry.npmjs.org/react-transform-hmr
+492 verbose request no auth needed
+493 info attempt registry request try #1 at 13:29:51
+494 verbose etag "EPUOJRVTAE0WYYHRFWM50V07N"
+495 http request GET http://registry.npmjs.org/react-transform-hmr
+496 verbose request uri http://registry.npmjs.org/react-dom
+497 verbose request no auth needed
+498 info attempt registry request try #1 at 13:29:51
+499 verbose etag "9OJ2K9EXV8M3J537XMKG56ZWE"
+500 http request GET http://registry.npmjs.org/react-dom
+501 verbose request uri http://registry.npmjs.org/material-ui
+502 verbose request no auth needed
+503 info attempt registry request try #1 at 13:29:51
+504 verbose etag "PSOVI4VGNY7AMYLFYNXABCL9"
+505 http request GET http://registry.npmjs.org/material-ui
+506 verbose request uri http://registry.npmjs.org/redux
+507 verbose request no auth needed
+508 info attempt registry request try #1 at 13:29:51
+509 verbose etag "5CWGQ27DNM3RV6TKUQPPDHV9M"
+510 http request GET http://registry.npmjs.org/redux
+511 verbose request uri http://registry.npmjs.org/redux-devtools-dock-monitor
+512 verbose request no auth needed
+513 info attempt registry request try #1 at 13:29:51
+514 verbose etag "4KN8YUBQKGHLP37GZEYXFBCFN"
+515 http request GET http://registry.npmjs.org/redux-devtools-dock-monitor
+516 verbose request uri http://registry.npmjs.org/redux-devtools
+517 verbose request no auth needed
+518 info attempt registry request try #1 at 13:29:51
+519 verbose etag "74EA32UO6BKHJL1I9SYAC5FLZ"
+520 http request GET http://registry.npmjs.org/redux-devtools
+521 verbose request uri http://registry.npmjs.org/redux-logger
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 13:29:51
+524 verbose etag "5LE6G0L4CR1RJY987DE5U7GFT"
+525 http request GET http://registry.npmjs.org/redux-logger
+526 verbose request uri http://registry.npmjs.org/redux-devtools-log-monitor
+527 verbose request no auth needed
+528 info attempt registry request try #1 at 13:29:51
+529 verbose etag "9RNCGYMX0BX5MSXUEBMDEJBZ5"
+530 http request GET http://registry.npmjs.org/redux-devtools-log-monitor
+531 verbose request uri http://registry.npmjs.org/react-router
+532 verbose request no auth needed
+533 info attempt registry request try #1 at 13:29:51
+534 verbose etag "CJ8W9ZXZQWMKGILB0IF0U5W5R"
+535 http request GET http://registry.npmjs.org/react-router
+536 verbose request uri http://registry.npmjs.org/redux-thunk
+537 verbose request no auth needed
+538 info attempt registry request try #1 at 13:29:51
+539 verbose etag "DDPSECQNGH6YRCMV15NW0JABH"
+540 http request GET http://registry.npmjs.org/redux-thunk
+541 verbose request uri http://registry.npmjs.org/redux-router
+542 verbose request no auth needed
+543 info attempt registry request try #1 at 13:29:51
+544 verbose etag "AROGIEW3WOM2UC8DH8HMVJVHI"
+545 http request GET http://registry.npmjs.org/redux-router
+546 verbose request uri http://registry.npmjs.org/webpack-dev-middleware
+547 verbose request no auth needed
+548 info attempt registry request try #1 at 13:29:51
+549 verbose etag "BTMQI55Y4ZXE9N5LJNW0B5T9X"
+550 http request GET http://registry.npmjs.org/webpack-dev-middleware
+551 verbose request uri http://registry.npmjs.org/webpack-hot-middleware
+552 verbose request no auth needed
+553 info attempt registry request try #1 at 13:29:51
+554 verbose etag "D0D82QVH7EANC5Q9JES69UPHP"
+555 http request GET http://registry.npmjs.org/webpack-hot-middleware
+556 verbose request uri http://registry.npmjs.org/extract-text-webpack-plugin
+557 verbose request no auth needed
+558 info attempt registry request try #1 at 13:29:51
+559 verbose etag "9IGMLVVDS82EP379O0K2WTNQP"
+560 http request GET http://registry.npmjs.org/extract-text-webpack-plugin
+561 verbose request uri http://registry.npmjs.org/webpack
+562 verbose request no auth needed
+563 info attempt registry request try #1 at 13:29:51
+564 verbose etag "9OSVJUI6DWVO8IY3MU0AIJJB"
+565 http request GET http://registry.npmjs.org/webpack
+566 verbose request uri http://registry.npmjs.org/react-addons-transition-group
+567 verbose request no auth needed
+568 info attempt registry request try #1 at 13:29:51
+569 verbose etag "63IQYK0X90DHFFSEDHE5JQJ7U"
+570 http request GET http://registry.npmjs.org/react-addons-transition-group
+571 verbose request uri http://registry.npmjs.org/react-tap-event-plugin
+572 verbose request no auth needed
+573 info attempt registry request try #1 at 13:29:51
+574 verbose etag "13YTHZDFEQC40UFZVBSLFLN49"
+575 http request GET http://registry.npmjs.org/react-tap-event-plugin
+576 verbose request uri http://registry.npmjs.org/react
+577 verbose request no auth needed
+578 info attempt registry request try #1 at 13:29:51
+579 verbose etag "5INHJGB92JHJPBMYHDQ64RH2X"
+580 http request GET http://registry.npmjs.org/react
+581 verbose request uri http://registry.npmjs.org/style-loader
+582 verbose request no auth needed
+583 info attempt registry request try #1 at 13:29:51
+584 verbose etag "5VLG799WX3C6BF00PFT26FZ7L"
+585 http request GET http://registry.npmjs.org/style-loader
+586 http 304 http://registry.npmjs.org/lodash
+587 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+587 verbose headers   via: '1.1 varnish',
+587 verbose headers   'cache-control': 'max-age=60',
+587 verbose headers   etag: '"E9LEHKGBS54RD8UDGZ25GFI1Y"',
+587 verbose headers   age: '0',
+587 verbose headers   connection: 'keep-alive',
+587 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+587 verbose headers   'x-cache': 'HIT',
+587 verbose headers   'x-cache-hits': '25',
+587 verbose headers   'x-timer': 'S1449120896.278128,VS0,VE0',
+587 verbose headers   vary: 'Accept' }
+588 silly get cb [ 304,
+588 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+588 silly get     via: '1.1 varnish',
+588 silly get     'cache-control': 'max-age=60',
+588 silly get     etag: '"E9LEHKGBS54RD8UDGZ25GFI1Y"',
+588 silly get     age: '0',
+588 silly get     connection: 'keep-alive',
+588 silly get     'x-served-by': 'cache-itm7420-ITM',
+588 silly get     'x-cache': 'HIT',
+588 silly get     'x-cache-hits': '25',
+588 silly get     'x-timer': 'S1449120896.278128,VS0,VE0',
+588 silly get     vary: 'Accept' } ]
+589 verbose etag http://registry.npmjs.org/lodash from cache
+590 verbose get saving lodash to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+591 http 304 http://registry.npmjs.org/babel-core
+592 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+592 verbose headers   via: '1.1 varnish',
+592 verbose headers   'cache-control': 'max-age=60',
+592 verbose headers   etag: '"9P5MPJPVFAL18G060QRLDM2G8"',
+592 verbose headers   age: '32',
+592 verbose headers   connection: 'keep-alive',
+592 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+592 verbose headers   'x-cache': 'HIT',
+592 verbose headers   'x-cache-hits': '2',
+592 verbose headers   'x-timer': 'S1449120896.283534,VS0,VE0',
+592 verbose headers   vary: 'Accept' }
+593 silly get cb [ 304,
+593 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+593 silly get     via: '1.1 varnish',
+593 silly get     'cache-control': 'max-age=60',
+593 silly get     etag: '"9P5MPJPVFAL18G060QRLDM2G8"',
+593 silly get     age: '32',
+593 silly get     connection: 'keep-alive',
+593 silly get     'x-served-by': 'cache-itm7427-ITM',
+593 silly get     'x-cache': 'HIT',
+593 silly get     'x-cache-hits': '2',
+593 silly get     'x-timer': 'S1449120896.283534,VS0,VE0',
+593 silly get     vary: 'Accept' } ]
+594 verbose etag http://registry.npmjs.org/babel-core from cache
+595 verbose get saving babel-core to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\babel-core\.cache.json
+596 silly addNameRange number 2 { name: 'lodash', range: '>=3.10.1 <4.0.0', hasData: true }
+597 silly addNameRange versions [ 'lodash',
+597 silly addNameRange   [ '0.1.0',
+597 silly addNameRange     '0.2.0',
+597 silly addNameRange     '0.2.1',
+597 silly addNameRange     '0.2.2',
+597 silly addNameRange     '0.3.0',
+597 silly addNameRange     '0.3.1',
+597 silly addNameRange     '0.3.2',
+597 silly addNameRange     '0.4.0',
+597 silly addNameRange     '0.4.1',
+597 silly addNameRange     '0.4.2',
+597 silly addNameRange     '0.5.0-rc.1',
+597 silly addNameRange     '0.5.0',
+597 silly addNameRange     '0.5.1',
+597 silly addNameRange     '0.5.2',
+597 silly addNameRange     '0.6.0',
+597 silly addNameRange     '0.6.1',
+597 silly addNameRange     '0.7.0',
+597 silly addNameRange     '0.8.0',
+597 silly addNameRange     '0.8.1',
+597 silly addNameRange     '0.8.2',
+597 silly addNameRange     '0.9.0',
+597 silly addNameRange     '0.9.1',
+597 silly addNameRange     '0.9.2',
+597 silly addNameRange     '0.10.0',
+597 silly addNameRange     '1.0.0-rc.1',
+597 silly addNameRange     '1.0.0-rc.2',
+597 silly addNameRange     '1.0.0-rc.3',
+597 silly addNameRange     '1.0.0',
+597 silly addNameRange     '1.0.1',
+597 silly addNameRange     '1.1.0',
+597 silly addNameRange     '1.1.1',
+597 silly addNameRange     '1.2.0',
+597 silly addNameRange     '1.2.1',
+597 silly addNameRange     '1.3.0',
+597 silly addNameRange     '1.3.1',
+597 silly addNameRange     '2.0.0',
+597 silly addNameRange     '2.1.0',
+597 silly addNameRange     '2.2.0',
+597 silly addNameRange     '2.2.1',
+597 silly addNameRange     '2.3.0',
+597 silly addNameRange     '2.4.0',
+597 silly addNameRange     '2.4.1',
+597 silly addNameRange     '3.0.0',
+597 silly addNameRange     '3.0.1',
+597 silly addNameRange     '3.1.0',
+597 silly addNameRange     '3.2.0',
+597 silly addNameRange     '3.3.0',
+597 silly addNameRange     '3.3.1',
+597 silly addNameRange     '3.4.0',
+597 silly addNameRange     '3.5.0',
+597 silly addNameRange     '3.6.0',
+597 silly addNameRange     '1.0.2',
+597 silly addNameRange     '3.7.0',
+597 silly addNameRange     '2.4.2',
+597 silly addNameRange     '3.8.0',
+597 silly addNameRange     '3.9.0',
+597 silly addNameRange     '3.9.1',
+597 silly addNameRange     '3.9.2',
+597 silly addNameRange     '3.9.3',
+597 silly addNameRange     '3.10.0',
+597 silly addNameRange     '3.10.1' ] ]
+598 silly addNamed lodash@3.10.1
+599 verbose addNamed "3.10.1" is a plain semver version for lodash
+600 silly addNameRange number 2 { name: 'babel-core', range: '>=5.8.29 <6.0.0', hasData: true }
+601 silly addNameRange versions [ 'babel-core',
+601 silly addNameRange   [ '4.0.1',
+601 silly addNameRange     '4.0.2',
+601 silly addNameRange     '4.1.1',
+601 silly addNameRange     '4.2.0',
+601 silly addNameRange     '4.2.1',
+601 silly addNameRange     '4.3.0',
+601 silly addNameRange     '4.4.1',
+601 silly addNameRange     '4.4.2',
+601 silly addNameRange     '4.4.3',
+601 silly addNameRange     '4.4.4',
+601 silly addNameRange     '4.4.5',
+601 silly addNameRange     '4.4.6',
+601 silly addNameRange     '4.5.0',
+601 silly addNameRange     '4.5.1',
+601 silly addNameRange     '4.5.2',
+601 silly addNameRange     '4.5.3',
+601 silly addNameRange     '4.5.4',
+601 silly addNameRange     '4.5.5',
+601 silly addNameRange     '4.6.0',
+601 silly addNameRange     '4.6.1',
+601 silly addNameRange     '4.6.3',
+601 silly addNameRange     '4.6.4',
+601 silly addNameRange     '4.6.5',
+601 silly addNameRange     '4.6.6',
+601 silly addNameRange     '4.7.0',
+601 silly addNameRange     '4.7.1',
+601 silly addNameRange     '4.7.2',
+601 silly addNameRange     '4.7.3',
+601 silly addNameRange     '4.7.4',
+601 silly addNameRange     '4.7.5',
+601 silly addNameRange     '4.7.6',
+601 silly addNameRange     '4.7.7',
+601 silly addNameRange     '4.7.8',
+601 silly addNameRange     '4.7.9',
+601 silly addNameRange     '4.7.10',
+601 silly addNameRange     '4.7.11',
+601 silly addNameRange     '4.7.12',
+601 silly addNameRange     '4.7.13',
+601 silly addNameRange     '4.7.14',
+601 silly addNameRange     '4.7.15',
+601 silly addNameRange     '4.7.16',
+601 silly addNameRange     '5.0.0-beta2',
+601 silly addNameRange     '5.0.0-beta3',
+601 silly addNameRange     '5.0.0-beta4',
+601 silly addNameRange     '5.0.0',
+601 silly addNameRange     '5.0.1',
+601 silly addNameRange     '5.0.2',
+601 silly addNameRange     '5.0.3',
+601 silly addNameRange     '5.0.4',
+601 silly addNameRange     '5.0.5',
+601 silly addNameRange     '5.0.6',
+601 silly addNameRange     '5.0.7',
+601 silly addNameRange     '5.0.8',
+601 silly addNameRange     '5.0.9',
+601 silly addNameRange     '5.0.10',
+601 silly addNameRange     '5.0.11',
+601 silly addNameRange     '5.0.12',
+601 silly addNameRange     '5.0.13',
+601 silly addNameRange     '5.1.0',
+601 silly addNameRange     '5.1.1',
+601 silly addNameRange     '5.1.2',
+601 silly addNameRange     '5.1.3',
+601 silly addNameRange     '5.1.4',
+601 silly addNameRange     '5.1.5',
+601 silly addNameRange     '5.1.6',
+601 silly addNameRange     '5.1.7',
+601 silly addNameRange     '5.1.8',
+601 silly addNameRange     '5.1.9',
+601 silly addNameRange     '5.1.10',
+601 silly addNameRange     '5.1.11',
+601 silly addNameRange     '5.1.12',
+601 silly addNameRange     '5.1.13',
+601 silly addNameRange     '5.2.0',
+601 silly addNameRange     '5.2.1',
+601 silly addNameRange     '5.2.2',
+601 silly addNameRange     '5.2.3',
+601 silly addNameRange     '5.2.4',
+601 silly addNameRange     '5.2.5',
+601 silly addNameRange     '5.2.6',
+601 silly addNameRange     '5.2.7',
+601 silly addNameRange     '5.2.9',
+601 silly addNameRange     '5.2.10',
+601 silly addNameRange     '5.2.11',
+601 silly addNameRange     '5.2.12',
+601 silly addNameRange     '5.2.13',
+601 silly addNameRange     '5.2.14',
+601 silly addNameRange     '5.2.15',
+601 silly addNameRange     '5.2.16',
+601 silly addNameRange     '5.2.17',
+601 silly addNameRange     '5.3.0',
+601 silly addNameRange     '5.3.1',
+601 silly addNameRange     '5.3.2',
+601 silly addNameRange     '5.3.3',
+601 silly addNameRange     '5.4.0',
+601 silly addNameRange     '5.4.1',
+601 silly addNameRange     '5.4.2',
+601 silly addNameRange     '5.4.3',
+601 silly addNameRange     '5.4.4',
+601 silly addNameRange     '5.4.5',
+601 silly addNameRange     '5.4.6',
+601 silly addNameRange     '5.4.7',
+601 silly addNameRange     '5.5.0',
+601 silly addNameRange     '5.5.1',
+601 silly addNameRange     '5.5.2',
+601 silly addNameRange     '5.5.3',
+601 silly addNameRange     '5.5.4',
+601 silly addNameRange     '5.5.5',
+601 silly addNameRange     '5.5.6',
+601 silly addNameRange     '5.5.7',
+601 silly addNameRange     '5.5.8',
+601 silly addNameRange     '5.6.1',
+601 silly addNameRange     '5.6.2',
+601 silly addNameRange     '5.6.3',
+601 silly addNameRange     '5.6.4',
+601 silly addNameRange     '5.6.5',
+601 silly addNameRange     '5.6.6',
+601 silly addNameRange     '5.6.7',
+601 silly addNameRange     '5.6.10',
+601 silly addNameRange     '5.6.11',
+601 silly addNameRange     '5.6.12',
+601 silly addNameRange     '5.6.14',
+601 silly addNameRange     '5.6.15',
+601 silly addNameRange     '5.6.16',
+601 silly addNameRange     '5.6.18',
+601 silly addNameRange     '5.6.19',
+601 silly addNameRange     '5.6.20',
+601 silly addNameRange     '5.7.0',
+601 silly addNameRange     '5.7.1',
+601 silly addNameRange     '5.7.2',
+601 silly addNameRange     '5.7.3',
+601 silly addNameRange     '5.7.4',
+601 silly addNameRange     '5.8.1',
+601 silly addNameRange     '5.8.2',
+601 silly addNameRange     '5.8.3',
+601 silly addNameRange     '5.8.5',
+601 silly addNameRange     '5.8.6',
+601 silly addNameRange     '5.8.8',
+601 silly addNameRange     '5.8.9',
+601 silly addNameRange     '5.8.12',
+601 silly addNameRange     '5.8.14',
+601 silly addNameRange     '5.8.19',
+601 silly addNameRange     '5.8.20',
+601 silly addNameRange     '5.8.21',
+601 silly addNameRange     '5.8.22',
+601 silly addNameRange     '5.8.23',
+601 silly addNameRange     '5.8.24',
+601 silly addNameRange     '5.8.25',
+601 silly addNameRange     '5.8.29',
+601 silly addNameRange     '5.8.30',
+601 silly addNameRange     '5.8.31',
+601 silly addNameRange     '5.8.32',
+601 silly addNameRange     '5.8.33',
+601 silly addNameRange     '6.0.0',
+601 silly addNameRange     '6.0.1',
+601 silly addNameRange     '6.0.2',
+601 silly addNameRange     '6.0.12',
+601 silly addNameRange     '6.0.14',
+601 silly addNameRange     '6.0.15',
+601 silly addNameRange     '6.0.16',
+601 silly addNameRange     '6.0.17',
+601 silly addNameRange     '6.0.18',
+601 silly addNameRange     '6.0.19',
+601 silly addNameRange     '6.0.20',
+601 silly addNameRange     '6.1.2',
+601 silly addNameRange     '6.1.4',
+601 silly addNameRange     '5.8.34',
+601 silly addNameRange     '6.1.5',
+601 silly addNameRange     '6.1.6',
+601 silly addNameRange     '6.1.7',
+601 silly addNameRange     '6.1.8',
+601 silly addNameRange     '6.1.9',
+601 silly addNameRange     '6.1.10',
+601 silly addNameRange     '6.1.11',
+601 silly addNameRange     '6.1.12',
+601 silly addNameRange     '6.1.13',
+601 silly addNameRange     '6.1.14',
+601 silly addNameRange     '6.1.15',
+601 silly addNameRange     '6.1.16',
+601 silly addNameRange     '6.1.17',
+601 silly addNameRange     '6.1.18',
+601 silly addNameRange     '6.1.19',
+601 silly addNameRange     '6.1.20',
+601 silly addNameRange     '6.1.21',
+601 silly addNameRange     '6.2.0',
+601 silly addNameRange     '6.2.1',
+601 silly addNameRange     '6.2.4' ] ]
+602 silly addNamed babel-core@5.8.34
+603 verbose addNamed "5.8.34" is a plain semver version for babel-core
+604 silly cache afterAdd lodash@3.10.1
+605 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\lodash\3.10.1\package\package.json not in flight; writing
+606 silly cache afterAdd babel-core@5.8.34
+607 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-core\5.8.34\package\package.json not in flight; writing
+608 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\lodash\3.10.1\package\package.json written
+609 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-core\5.8.34\package\package.json written
+610 http 304 http://registry.npmjs.org/postcss-loader
+611 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+611 verbose headers   via: '1.1 varnish',
+611 verbose headers   'cache-control': 'max-age=60',
+611 verbose headers   etag: '"5KOHY0ENJGQYCM4UT80HG70M3"',
+611 verbose headers   age: '0',
+611 verbose headers   connection: 'keep-alive',
+611 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+611 verbose headers   'x-cache': 'HIT',
+611 verbose headers   'x-cache-hits': '1',
+611 verbose headers   'x-timer': 'S1449120896.283533,VS0,VE144',
+611 verbose headers   vary: 'Accept' }
+612 silly get cb [ 304,
+612 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+612 silly get     via: '1.1 varnish',
+612 silly get     'cache-control': 'max-age=60',
+612 silly get     etag: '"5KOHY0ENJGQYCM4UT80HG70M3"',
+612 silly get     age: '0',
+612 silly get     connection: 'keep-alive',
+612 silly get     'x-served-by': 'cache-itm7427-ITM',
+612 silly get     'x-cache': 'HIT',
+612 silly get     'x-cache-hits': '1',
+612 silly get     'x-timer': 'S1449120896.283533,VS0,VE144',
+612 silly get     vary: 'Accept' } ]
+613 verbose etag http://registry.npmjs.org/postcss-loader from cache
+614 verbose get saving postcss-loader to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\postcss-loader\.cache.json
+615 http 304 http://registry.npmjs.org/express
+616 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+616 verbose headers   via: '1.1 varnish',
+616 verbose headers   'cache-control': 'max-age=60',
+616 verbose headers   etag: '"5PSI0DC1K62UL488K2H03MSNZ"',
+616 verbose headers   age: '0',
+616 verbose headers   connection: 'keep-alive',
+616 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+616 verbose headers   'x-cache': 'HIT',
+616 verbose headers   'x-cache-hits': '1',
+616 verbose headers   'x-timer': 'S1449120896.277744,VS0,VE146',
+616 verbose headers   vary: 'Accept' }
+617 silly get cb [ 304,
+617 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+617 silly get     via: '1.1 varnish',
+617 silly get     'cache-control': 'max-age=60',
+617 silly get     etag: '"5PSI0DC1K62UL488K2H03MSNZ"',
+617 silly get     age: '0',
+617 silly get     connection: 'keep-alive',
+617 silly get     'x-served-by': 'cache-itm7426-ITM',
+617 silly get     'x-cache': 'HIT',
+617 silly get     'x-cache-hits': '1',
+617 silly get     'x-timer': 'S1449120896.277744,VS0,VE146',
+617 silly get     vary: 'Accept' } ]
+618 verbose etag http://registry.npmjs.org/express from cache
+619 verbose get saving express to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+620 http 304 http://registry.npmjs.org/webpack-dev-middleware
+621 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+621 verbose headers   via: '1.1 varnish',
+621 verbose headers   'cache-control': 'max-age=60',
+621 verbose headers   etag: '"BTMQI55Y4ZXE9N5LJNW0B5T9X"',
+621 verbose headers   age: '0',
+621 verbose headers   connection: 'keep-alive',
+621 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+621 verbose headers   'x-cache': 'HIT',
+621 verbose headers   'x-cache-hits': '1',
+621 verbose headers   'x-timer': 'S1449120896.283015,VS0,VE161',
+621 verbose headers   vary: 'Accept' }
+622 silly get cb [ 304,
+622 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+622 silly get     via: '1.1 varnish',
+622 silly get     'cache-control': 'max-age=60',
+622 silly get     etag: '"BTMQI55Y4ZXE9N5LJNW0B5T9X"',
+622 silly get     age: '0',
+622 silly get     connection: 'keep-alive',
+622 silly get     'x-served-by': 'cache-itm7422-ITM',
+622 silly get     'x-cache': 'HIT',
+622 silly get     'x-cache-hits': '1',
+622 silly get     'x-timer': 'S1449120896.283015,VS0,VE161',
+622 silly get     vary: 'Accept' } ]
+623 verbose etag http://registry.npmjs.org/webpack-dev-middleware from cache
+624 verbose get saving webpack-dev-middleware to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\webpack-dev-middleware\.cache.json
+625 silly addNameRange number 2 { name: 'postcss-loader',
+625 silly addNameRange   range: '>=0.8.0 <0.9.0',
+625 silly addNameRange   hasData: true }
+626 silly addNameRange versions [ 'postcss-loader',
+626 silly addNameRange   [ '0.1.0',
+626 silly addNameRange     '0.2.0',
+626 silly addNameRange     '0.3.0',
+626 silly addNameRange     '0.4.0',
+626 silly addNameRange     '0.4.1',
+626 silly addNameRange     '0.4.2',
+626 silly addNameRange     '0.4.3',
+626 silly addNameRange     '0.4.4',
+626 silly addNameRange     '0.5.0',
+626 silly addNameRange     '0.5.1',
+626 silly addNameRange     '0.6.0',
+626 silly addNameRange     '0.7.0',
+626 silly addNameRange     '0.8.0' ] ]
+627 silly addNamed postcss-loader@0.8.0
+628 verbose addNamed "0.8.0" is a plain semver version for postcss-loader
+629 silly addNameRange number 2 { name: 'express', range: '>=4.13.3 <5.0.0', hasData: true }
+630 silly addNameRange versions [ 'express',
+630 silly addNameRange   [ '0.14.0',
+630 silly addNameRange     '0.14.1',
+630 silly addNameRange     '1.0.0',
+630 silly addNameRange     '1.0.1',
+630 silly addNameRange     '1.0.2',
+630 silly addNameRange     '1.0.3',
+630 silly addNameRange     '1.0.4',
+630 silly addNameRange     '1.0.5',
+630 silly addNameRange     '1.0.6',
+630 silly addNameRange     '1.0.7',
+630 silly addNameRange     '1.0.8',
+630 silly addNameRange     '2.0.0',
+630 silly addNameRange     '2.1.0',
+630 silly addNameRange     '2.1.1',
+630 silly addNameRange     '2.2.0',
+630 silly addNameRange     '2.2.1',
+630 silly addNameRange     '2.2.2',
+630 silly addNameRange     '2.3.0',
+630 silly addNameRange     '2.3.1',
+630 silly addNameRange     '2.3.2',
+630 silly addNameRange     '2.3.3',
+630 silly addNameRange     '2.3.4',
+630 silly addNameRange     '2.3.5',
+630 silly addNameRange     '2.3.6',
+630 silly addNameRange     '2.3.7',
+630 silly addNameRange     '2.3.8',
+630 silly addNameRange     '2.3.9',
+630 silly addNameRange     '2.3.10',
+630 silly addNameRange     '2.3.11',
+630 silly addNameRange     '2.3.12',
+630 silly addNameRange     '2.4.0',
+630 silly addNameRange     '2.4.1',
+630 silly addNameRange     '2.4.2',
+630 silly addNameRange     '2.4.3',
+630 silly addNameRange     '2.4.4',
+630 silly addNameRange     '2.4.5',
+630 silly addNameRange     '2.4.6',
+630 silly addNameRange     '2.4.7',
+630 silly addNameRange     '2.5.0',
+630 silly addNameRange     '2.5.1',
+630 silly addNameRange     '2.5.2',
+630 silly addNameRange     '2.5.3',
+630 silly addNameRange     '2.5.4',
+630 silly addNameRange     '2.5.5',
+630 silly addNameRange     '2.5.6',
+630 silly addNameRange     '2.5.7',
+630 silly addNameRange     '2.5.8',
+630 silly addNameRange     '2.5.9',
+630 silly addNameRange     '2.5.10',
+630 silly addNameRange     '2.5.11',
+630 silly addNameRange     '3.0.0',
+630 silly addNameRange     '3.0.1',
+630 silly addNameRange     '3.0.2',
+630 silly addNameRange     '3.0.3',
+630 silly addNameRange     '3.0.4',
+630 silly addNameRange     '3.0.5',
+630 silly addNameRange     '3.0.6',
+630 silly addNameRange     '3.1.0',
+630 silly addNameRange     '3.1.1',
+630 silly addNameRange     '3.1.2',
+630 silly addNameRange     '3.2.0',
+630 silly addNameRange     '3.2.1',
+630 silly addNameRange     '3.2.2',
+630 silly addNameRange     '3.2.3',
+630 silly addNameRange     '3.2.4',
+630 silly addNameRange     '3.2.5',
+630 silly addNameRange     '3.2.6',
+630 silly addNameRange     '3.3.0',
+630 silly addNameRange     '3.3.1',
+630 silly addNameRange     '3.3.2',
+630 silly addNameRange     '3.3.3',
+630 silly addNameRange     '3.3.4',
+630 silly addNameRange     '3.3.5',
+630 silly addNameRange     '3.3.6',
+630 silly addNameRange     '1.0.0-beta',
+630 silly addNameRange     '1.0.0-beta2',
+630 silly addNameRange     '1.0.0-rc',
+630 silly addNameRange     '1.0.0-rc2',
+630 silly addNameRange     '1.0.0-rc3',
+630 silly addNameRange     '1.0.0-rc4',
+630 silly addNameRange     '2.0.0-beta',
+630 silly addNameRange     '2.0.0-beta2',
+630 silly addNameRange     '2.0.0-beta3',
+630 silly addNameRange     '2.0.0-rc',
+630 silly addNameRange     '2.0.0-rc2',
+630 silly addNameRange     '2.0.0-rc3',
+630 silly addNameRange     '3.0.0-alpha1',
+630 silly addNameRange     '3.0.0-alpha2',
+630 silly addNameRange     '3.0.0-alpha3',
+630 silly addNameRange     '3.0.0-alpha4',
+630 silly addNameRange     '3.0.0-alpha5',
+630 silly addNameRange     '3.0.0-beta1',
+630 silly addNameRange     '3.0.0-beta2',
+630 silly addNameRange     '3.0.0-beta3',
+630 silly addNameRange     '3.0.0-beta4',
+630 silly addNameRange     '3.0.0-beta6',
+630 silly addNameRange     '3.0.0-beta7',
+630 silly addNameRange     '3.0.0-rc1',
+630 silly addNameRange     '3.0.0-rc2',
+630 silly addNameRange     '3.0.0-rc3',
+630 silly addNameRange     '3.0.0-rc4',
+630 silly addNameRange     '3.0.0-rc5',
+630 silly addNameRange     '3.3.7',
+630 silly addNameRange     '3.3.8',
+630 silly addNameRange     '3.4.0',
+630 silly addNameRange     '3.4.1',
+630 silly addNameRange     '3.4.2',
+630 silly addNameRange     '3.4.3',
+630 silly addNameRange     '3.4.4',
+630 silly addNameRange     '3.4.5',
+630 silly addNameRange     '3.4.6',
+630 silly addNameRange     '3.4.7',
+630 silly addNameRange     '3.4.8',
+630 silly addNameRange     '4.0.0-rc1',
+630 silly addNameRange     '4.0.0-rc2',
+630 silly addNameRange     '3.5.0',
+630 silly addNameRange     '4.0.0-rc3',
+630 silly addNameRange     '4.0.0-rc4',
+630 silly addNameRange     '3.5.1',
+630 silly addNameRange     '4.0.0',
+630 silly addNameRange     '3.5.2',
+630 silly addNameRange     '4.1.0',
+630 silly addNameRange     '4.1.1',
+630 silly addNameRange     '3.5.3',
+630 silly addNameRange     '4.1.2',
+630 silly addNameRange     '3.6.0',
+630 silly addNameRange     '4.2.0',
+630 silly addNameRange     '3.7.0',
+630 silly addNameRange     '3.8.0',
+630 silly addNameRange     '4.3.0',
+630 silly addNameRange     '4.3.1',
+630 silly addNameRange     '3.8.1',
+630 silly addNameRange     '4.3.2',
+630 silly addNameRange     '3.9.0',
+630 silly addNameRange     '4.4.0',
+630 silly addNameRange     '4.4.1',
+630 silly addNameRange     '3.10.0',
+630 silly addNameRange     '3.10.1',
+630 silly addNameRange     '3.10.2',
+630 silly addNameRange     '3.10.3',
+630 silly addNameRange     '3.10.4',
+630 silly addNameRange     '4.4.2',
+630 silly addNameRange     '3.10.5',
+630 silly addNameRange     '4.4.3',
+630 silly addNameRange     '3.11.0',
+630 silly addNameRange     '4.4.4',
+630 silly addNameRange     '3.12.0',
+630 silly addNameRange     '3.12.1',
+630 silly addNameRange     '4.4.5',
+630 silly addNameRange     '3.13.0',
+630 silly addNameRange     '4.5.0',
+630 silly addNameRange     '4.5.1',
+630 silly addNameRange     '3.14.0',
+630 silly addNameRange     '4.6.0',
+630 silly addNameRange     '4.6.1',
+630 silly addNameRange     '3.15.0',
+630 silly addNameRange     '4.7.0',
+630 silly addNameRange     '3.15.1',
+630 silly addNameRange     '4.7.1',
+630 silly addNameRange     '3.15.2',
+630 silly addNameRange     '4.7.2',
+630 silly addNameRange     '4.7.3',
+630 silly addNameRange     '3.15.3',
+630 silly addNameRange     '4.7.4',
+630 silly addNameRange     '3.16.0',
+630 silly addNameRange     '4.8.0',
+630 silly addNameRange     '3.16.1',
+630 silly addNameRange     '4.8.1',
+630 silly addNameRange     '3.16.2',
+630 silly addNameRange     '4.8.2',
+630 silly addNameRange     '3.16.3',
+630 silly addNameRange     '3.16.4',
+630 silly addNameRange     '4.8.3',
+630 silly addNameRange     '3.16.5',
+630 silly addNameRange     '3.16.6',
+630 silly addNameRange     '4.8.4',
+630 silly addNameRange     '3.16.7',
+630 silly addNameRange     '4.8.5',
+630 silly addNameRange     '3.16.8',
+630 silly addNameRange     '4.8.6',
+630 silly addNameRange     '3.16.9',
+630 silly addNameRange     '4.8.7',
+630 silly addNameRange     '3.16.10',
+630 silly addNameRange     '4.8.8',
+630 silly addNameRange     '3.17.0',
+630 silly addNameRange     '3.17.1',
+630 silly addNameRange     '4.9.0',
+630 silly addNameRange     '3.17.2',
+630 silly addNameRange     '4.9.1',
+630 silly addNameRange     '4.9.2',
+630 silly addNameRange     '3.17.3',
+630 silly addNameRange     '4.9.3',
+630 silly addNameRange     '3.17.4',
+630 silly addNameRange     '4.9.4',
+630 silly addNameRange     '3.17.5',
+630 silly addNameRange     '4.9.5',
+630 silly addNameRange     '3.17.6',
+630 silly addNameRange     '3.17.7',
+630 silly addNameRange     '4.9.6',
+630 silly addNameRange     '4.9.7',
+630 silly addNameRange     '3.17.8',
+630 silly addNameRange     '4.9.8',
+630 silly addNameRange     '3.18.0',
+630 silly addNameRange     '3.18.1',
+630 silly addNameRange     '4.10.0',
+630 silly addNameRange     '3.18.2',
+630 silly addNameRange     '4.10.1',
+630 silly addNameRange     '5.0.0-alpha.1',
+630 silly addNameRange     '3.18.3',
+630 silly addNameRange     '4.10.2',
+630 silly addNameRange     '3.18.4',
+630 silly addNameRange     '4.10.3',
+630 silly addNameRange     '4.10.4',
+630 silly addNameRange     '4.10.5',
+630 silly addNameRange     '3.18.5',
+630 silly addNameRange     '3.18.6',
+630 silly addNameRange     '4.10.6',
+630 silly addNameRange     '4.10.7',
+630 silly addNameRange     '3.19.0',
+630 silly addNameRange     '4.10.8',
+630 silly addNameRange     '4.11.0',
+630 silly addNameRange     '3.19.1',
+630 silly addNameRange     '4.11.1',
+630 silly addNameRange     '3.19.2',
+630 silly addNameRange     '4.11.2',
+630 silly addNameRange     '3.20.0',
+630 silly addNameRange     '4.12.0',
+630 silly addNameRange     '3.20.1',
+630 silly addNameRange     '4.12.1',
+630 silly addNameRange     '4.12.2',
+630 silly addNameRange     '3.20.2',
+630 silly addNameRange     '4.12.3',
+630 silly addNameRange     '3.20.3',
+630 silly addNameRange     '4.12.4',
+630 silly addNameRange     '3.21.0',
+630 silly addNameRange     '4.13.0',
+630 silly addNameRange     '3.21.1',
+630 silly addNameRange     '4.13.1',
+630 silly addNameRange     '5.0.0-alpha.2',
+630 silly addNameRange     '3.21.2',
+630 silly addNameRange     '4.13.2',
+630 silly addNameRange     '4.13.3' ] ]
+631 silly addNamed express@4.13.3
+632 verbose addNamed "4.13.3" is a plain semver version for express
+633 silly cache afterAdd postcss-loader@0.8.0
+634 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\postcss-loader\0.8.0\package\package.json not in flight; writing
+635 silly addNameRange number 2 { name: 'webpack-dev-middleware',
+635 silly addNameRange   range: '>=1.2.0 <2.0.0',
+635 silly addNameRange   hasData: true }
+636 silly addNameRange versions [ 'webpack-dev-middleware',
+636 silly addNameRange   [ '0.5.0',
+636 silly addNameRange     '0.5.1',
+636 silly addNameRange     '0.6.0',
+636 silly addNameRange     '0.6.1',
+636 silly addNameRange     '0.6.2',
+636 silly addNameRange     '0.7.0',
+636 silly addNameRange     '0.7.1',
+636 silly addNameRange     '0.7.2',
+636 silly addNameRange     '0.7.3',
+636 silly addNameRange     '0.7.4',
+636 silly addNameRange     '0.8.0',
+636 silly addNameRange     '0.8.1',
+636 silly addNameRange     '0.8.2',
+636 silly addNameRange     '0.9.0',
+636 silly addNameRange     '0.9.1',
+636 silly addNameRange     '0.10.0',
+636 silly addNameRange     '0.10.1',
+636 silly addNameRange     '0.10.2',
+636 silly addNameRange     '0.11.0',
+636 silly addNameRange     '1.0.0',
+636 silly addNameRange     '1.0.1',
+636 silly addNameRange     '1.0.2',
+636 silly addNameRange     '1.0.3',
+636 silly addNameRange     '1.0.4',
+636 silly addNameRange     '1.0.5',
+636 silly addNameRange     '1.0.6',
+636 silly addNameRange     '1.0.7',
+636 silly addNameRange     '1.0.8',
+636 silly addNameRange     '1.0.9',
+636 silly addNameRange     '1.0.10',
+636 silly addNameRange     '1.0.11',
+636 silly addNameRange     '1.1.0',
+636 silly addNameRange     '1.2.0',
+636 silly addNameRange     '1.3.0',
+636 silly addNameRange     '1.4.0' ] ]
+637 silly addNamed webpack-dev-middleware@1.4.0
+638 verbose addNamed "1.4.0" is a plain semver version for webpack-dev-middleware
+639 http 304 http://registry.npmjs.org/autoprefixer-core
+640 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+640 verbose headers   via: '1.1 varnish',
+640 verbose headers   'cache-control': 'max-age=60',
+640 verbose headers   etag: '"D8RWB3GN21148AR117RYK4RTW"',
+640 verbose headers   age: '0',
+640 verbose headers   connection: 'keep-alive',
+640 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+640 verbose headers   'x-cache': 'HIT',
+640 verbose headers   'x-cache-hits': '1',
+640 verbose headers   'x-timer': 'S1449120896.275401,VS0,VE187',
+640 verbose headers   vary: 'Accept' }
+641 silly get cb [ 304,
+641 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+641 silly get     via: '1.1 varnish',
+641 silly get     'cache-control': 'max-age=60',
+641 silly get     etag: '"D8RWB3GN21148AR117RYK4RTW"',
+641 silly get     age: '0',
+641 silly get     connection: 'keep-alive',
+641 silly get     'x-served-by': 'cache-itm7420-ITM',
+641 silly get     'x-cache': 'HIT',
+641 silly get     'x-cache-hits': '1',
+641 silly get     'x-timer': 'S1449120896.275401,VS0,VE187',
+641 silly get     vary: 'Accept' } ]
+642 verbose etag http://registry.npmjs.org/autoprefixer-core from cache
+643 verbose get saving autoprefixer-core to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\autoprefixer-core\.cache.json
+644 silly cache afterAdd express@4.13.3
+645 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\express\4.13.3\package\package.json not in flight; writing
+646 silly cache afterAdd webpack-dev-middleware@1.4.0
+647 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack-dev-middleware\1.4.0\package\package.json not in flight; writing
+648 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\postcss-loader\0.8.0\package\package.json written
+649 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\express\4.13.3\package\package.json written
+650 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack-dev-middleware\1.4.0\package\package.json written
+651 silly addNameRange number 2 { name: 'autoprefixer-core',
+651 silly addNameRange   range: '>=6.0.1 <7.0.0',
+651 silly addNameRange   hasData: true }
+652 silly addNameRange versions [ 'autoprefixer-core',
+652 silly addNameRange   [ '3.0.0',
+652 silly addNameRange     '3.0.1',
+652 silly addNameRange     '3.1.0',
+652 silly addNameRange     '3.1.1',
+652 silly addNameRange     '3.1.2',
+652 silly addNameRange     '4.0.0',
+652 silly addNameRange     '4.0.1',
+652 silly addNameRange     '4.0.2',
+652 silly addNameRange     '5.0.0',
+652 silly addNameRange     '5.1.0',
+652 silly addNameRange     '5.1.1',
+652 silly addNameRange     '5.1.2',
+652 silly addNameRange     '5.1.3',
+652 silly addNameRange     '5.1.4',
+652 silly addNameRange     '5.1.5',
+652 silly addNameRange     '5.1.6',
+652 silly addNameRange     '5.1.7',
+652 silly addNameRange     '5.1.8',
+652 silly addNameRange     '5.1.9',
+652 silly addNameRange     '5.1.10',
+652 silly addNameRange     '5.1.11',
+652 silly addNameRange     '5.2.0',
+652 silly addNameRange     '5.2.1',
+652 silly addNameRange     '6.0.0',
+652 silly addNameRange     '6.0.1' ] ]
+653 silly addNamed autoprefixer-core@6.0.1
+654 verbose addNamed "6.0.1" is a plain semver version for autoprefixer-core
+655 http 304 http://registry.npmjs.org/css-loader
+656 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+656 verbose headers   via: '1.1 varnish',
+656 verbose headers   'cache-control': 'max-age=60',
+656 verbose headers   etag: '"9KOWUIZYN5LB6W700QTPKBOK1"',
+656 verbose headers   age: '0',
+656 verbose headers   connection: 'keep-alive',
+656 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+656 verbose headers   'x-cache': 'HIT',
+656 verbose headers   'x-cache-hits': '1',
+656 verbose headers   'x-timer': 'S1449120896.280615,VS0,VE197',
+656 verbose headers   vary: 'Accept' }
+657 silly get cb [ 304,
+657 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+657 silly get     via: '1.1 varnish',
+657 silly get     'cache-control': 'max-age=60',
+657 silly get     etag: '"9KOWUIZYN5LB6W700QTPKBOK1"',
+657 silly get     age: '0',
+657 silly get     connection: 'keep-alive',
+657 silly get     'x-served-by': 'cache-itm7427-ITM',
+657 silly get     'x-cache': 'HIT',
+657 silly get     'x-cache-hits': '1',
+657 silly get     'x-timer': 'S1449120896.280615,VS0,VE197',
+657 silly get     vary: 'Accept' } ]
+658 verbose etag http://registry.npmjs.org/css-loader from cache
+659 verbose get saving css-loader to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\css-loader\.cache.json
+660 http 404 http://registry.npmjs.org/react-dom_
+661 verbose headers { 'content-type': 'application/json',
+661 verbose headers   'cache-control': 'max-age=0',
+661 verbose headers   'content-length': '2',
+661 verbose headers   'accept-ranges': 'bytes',
+661 verbose headers   date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+661 verbose headers   via: '1.1 varnish',
+661 verbose headers   age: '0',
+661 verbose headers   connection: 'keep-alive',
+661 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+661 verbose headers   'x-cache': 'MISS',
+661 verbose headers   'x-cache-hits': '0',
+661 verbose headers   'x-timer': 'S1449120896.274770,VS0,VE201' }
+662 silly get cb [ 404,
+662 silly get   { 'content-type': 'application/json',
+662 silly get     'cache-control': 'max-age=0',
+662 silly get     'content-length': '2',
+662 silly get     'accept-ranges': 'bytes',
+662 silly get     date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+662 silly get     via: '1.1 varnish',
+662 silly get     age: '0',
+662 silly get     connection: 'keep-alive',
+662 silly get     'x-served-by': 'cache-itm7420-ITM',
+662 silly get     'x-cache': 'MISS',
+662 silly get     'x-cache-hits': '0',
+662 silly get     'x-timer': 'S1449120896.274770,VS0,VE201' } ]
+663 silly cache afterAdd autoprefixer-core@6.0.1
+664 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\autoprefixer-core\6.0.1\package\package.json not in flight; writing
+665 silly addNameRange number 2 { name: 'css-loader', range: '>=0.23.0 <0.24.0', hasData: true }
+666 silly addNameRange versions [ 'css-loader',
+666 silly addNameRange   [ '0.1.0',
+666 silly addNameRange     '0.1.1',
+666 silly addNameRange     '0.1.2',
+666 silly addNameRange     '0.2.0',
+666 silly addNameRange     '0.2.1',
+666 silly addNameRange     '0.2.2',
+666 silly addNameRange     '0.2.3',
+666 silly addNameRange     '0.2.4',
+666 silly addNameRange     '0.5.0',
+666 silly addNameRange     '0.5.1',
+666 silly addNameRange     '0.5.2',
+666 silly addNameRange     '0.6.0',
+666 silly addNameRange     '0.6.1',
+666 silly addNameRange     '0.6.2',
+666 silly addNameRange     '0.6.3',
+666 silly addNameRange     '0.6.4',
+666 silly addNameRange     '0.6.5',
+666 silly addNameRange     '0.6.6',
+666 silly addNameRange     '0.6.7',
+666 silly addNameRange     '0.6.8',
+666 silly addNameRange     '0.6.9',
+666 silly addNameRange     '0.6.10',
+666 silly addNameRange     '0.6.11',
+666 silly addNameRange     '0.6.12',
+666 silly addNameRange     '0.7.0',
+666 silly addNameRange     '0.7.1',
+666 silly addNameRange     '0.8.0',
+666 silly addNameRange     '0.9.0',
+666 silly addNameRange     '0.9.1',
+666 silly addNameRange     '0.10.0',
+666 silly addNameRange     '0.10.1',
+666 silly addNameRange     '0.11.0',
+666 silly addNameRange     '0.11.1',
+666 silly addNameRange     '0.11.2',
+666 silly addNameRange     '0.12.0',
+666 silly addNameRange     '0.12.1',
+666 silly addNameRange     '0.13.0',
+666 silly addNameRange     '0.13.1',
+666 silly addNameRange     '0.14.0',
+666 silly addNameRange     '0.14.1',
+666 silly addNameRange     '0.14.2',
+666 silly addNameRange     '0.14.3',
+666 silly addNameRange     '0.14.4',
+666 silly addNameRange     '0.14.5',
+666 silly addNameRange     '0.15.0',
+666 silly addNameRange     '0.15.1',
+666 silly addNameRange     '0.15.2',
+666 silly addNameRange     '0.15.3',
+666 silly addNameRange     '0.15.4',
+666 silly addNameRange     '0.15.5',
+666 silly addNameRange     '0.15.6',
+666 silly addNameRange     '0.16.0',
+666 silly addNameRange     '0.17.0',
+666 silly addNameRange     '0.18.0',
+666 silly addNameRange     '0.19.0',
+666 silly addNameRange     '0.20.0',
+666 silly addNameRange     '0.20.1',
+666 silly addNameRange     '0.20.2',
+666 silly addNameRange     '0.21.0',
+666 silly addNameRange     '0.22.0',
+666 silly addNameRange     '0.23.0' ] ]
+667 silly addNamed css-loader@0.23.0
+668 verbose addNamed "0.23.0" is a plain semver version for css-loader
+669 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\autoprefixer-core\6.0.1\package\package.json written
+670 silly cache afterAdd css-loader@0.23.0
+671 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\css-loader\0.23.0\package\package.json not in flight; writing
+672 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\css-loader\0.23.0\package\package.json written
+673 http 304 http://registry.npmjs.org/react-tap-event-plugin
+674 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+674 verbose headers   via: '1.1 varnish',
+674 verbose headers   'cache-control': 'max-age=60',
+674 verbose headers   etag: '"13YTHZDFEQC40UFZVBSLFLN49"',
+674 verbose headers   age: '0',
+674 verbose headers   connection: 'keep-alive',
+674 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+674 verbose headers   'x-cache': 'MISS',
+674 verbose headers   'x-cache-hits': '0',
+674 verbose headers   'x-timer': 'S1449120896.277769,VS0,VE291',
+674 verbose headers   vary: 'Accept' }
+675 silly get cb [ 304,
+675 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+675 silly get     via: '1.1 varnish',
+675 silly get     'cache-control': 'max-age=60',
+675 silly get     etag: '"13YTHZDFEQC40UFZVBSLFLN49"',
+675 silly get     age: '0',
+675 silly get     connection: 'keep-alive',
+675 silly get     'x-served-by': 'cache-itm7426-ITM',
+675 silly get     'x-cache': 'MISS',
+675 silly get     'x-cache-hits': '0',
+675 silly get     'x-timer': 'S1449120896.277769,VS0,VE291',
+675 silly get     vary: 'Accept' } ]
+676 verbose etag http://registry.npmjs.org/react-tap-event-plugin from cache
+677 verbose get saving react-tap-event-plugin to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-tap-event-plugin\.cache.json
+678 http 304 http://registry.npmjs.org/redux-logger
+679 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+679 verbose headers   via: '1.1 varnish',
+679 verbose headers   'cache-control': 'max-age=60',
+679 verbose headers   etag: '"5LE6G0L4CR1RJY987DE5U7GFT"',
+679 verbose headers   age: '0',
+679 verbose headers   connection: 'keep-alive',
+679 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+679 verbose headers   'x-cache': 'MISS',
+679 verbose headers   'x-cache-hits': '0',
+679 verbose headers   'x-timer': 'S1449120896.278266,VS0,VE293',
+679 verbose headers   vary: 'Accept' }
+680 silly get cb [ 304,
+680 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+680 silly get     via: '1.1 varnish',
+680 silly get     'cache-control': 'max-age=60',
+680 silly get     etag: '"5LE6G0L4CR1RJY987DE5U7GFT"',
+680 silly get     age: '0',
+680 silly get     connection: 'keep-alive',
+680 silly get     'x-served-by': 'cache-itm7420-ITM',
+680 silly get     'x-cache': 'MISS',
+680 silly get     'x-cache-hits': '0',
+680 silly get     'x-timer': 'S1449120896.278266,VS0,VE293',
+680 silly get     vary: 'Accept' } ]
+681 verbose etag http://registry.npmjs.org/redux-logger from cache
+682 verbose get saving redux-logger to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-logger\.cache.json
+683 silly addNameRange number 2 { name: 'react-tap-event-plugin',
+683 silly addNameRange   range: '>=0.2.1 <0.3.0',
+683 silly addNameRange   hasData: true }
+684 silly addNameRange versions [ 'react-tap-event-plugin',
+684 silly addNameRange   [ '0.1.0',
+684 silly addNameRange     '0.1.1',
+684 silly addNameRange     '0.1.2',
+684 silly addNameRange     '0.1.3',
+684 silly addNameRange     '0.1.4',
+684 silly addNameRange     '0.1.5',
+684 silly addNameRange     '0.1.6',
+684 silly addNameRange     '0.1.7',
+684 silly addNameRange     '0.1.8',
+684 silly addNameRange     '0.2.0',
+684 silly addNameRange     '0.2.1' ] ]
+685 silly addNamed react-tap-event-plugin@0.2.1
+686 verbose addNamed "0.2.1" is a plain semver version for react-tap-event-plugin
+687 silly addNameRange number 2 { name: 'redux-logger', range: '>=2.0.4 <3.0.0', hasData: true }
+688 silly addNameRange versions [ 'redux-logger',
+688 silly addNameRange   [ '0.0.1',
+688 silly addNameRange     '0.0.2',
+688 silly addNameRange     '0.0.3',
+688 silly addNameRange     '1.0.0',
+688 silly addNameRange     '1.0.1',
+688 silly addNameRange     '1.0.2',
+688 silly addNameRange     '1.0.3',
+688 silly addNameRange     '1.0.4',
+688 silly addNameRange     '1.0.5',
+688 silly addNameRange     '1.0.6',
+688 silly addNameRange     '1.0.7',
+688 silly addNameRange     '1.0.8',
+688 silly addNameRange     '1.0.9',
+688 silly addNameRange     '2.0.0',
+688 silly addNameRange     '2.0.1',
+688 silly addNameRange     '2.0.2',
+688 silly addNameRange     '2.0.3',
+688 silly addNameRange     '2.0.4' ] ]
+689 silly addNamed redux-logger@2.0.4
+690 verbose addNamed "2.0.4" is a plain semver version for redux-logger
+691 silly cache afterAdd react-tap-event-plugin@0.2.1
+692 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-tap-event-plugin\0.2.1\package\package.json not in flight; writing
+693 silly cache afterAdd redux-logger@2.0.4
+694 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-logger\2.0.4\package\package.json not in flight; writing
+695 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-tap-event-plugin\0.2.1\package\package.json written
+696 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-logger\2.0.4\package\package.json written
+697 http 304 http://registry.npmjs.org/postcss-color-rebeccapurple
+698 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+698 verbose headers   via: '1.1 varnish',
+698 verbose headers   'cache-control': 'max-age=60',
+698 verbose headers   etag: '"CRWER21SN8RVQ4VP4NHID61YK"',
+698 verbose headers   age: '0',
+698 verbose headers   connection: 'keep-alive',
+698 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+698 verbose headers   'x-cache': 'MISS',
+698 verbose headers   'x-cache-hits': '0',
+698 verbose headers   'x-timer': 'S1449120896.278233,VS0,VE547',
+698 verbose headers   vary: 'Accept' }
+699 silly get cb [ 304,
+699 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+699 silly get     via: '1.1 varnish',
+699 silly get     'cache-control': 'max-age=60',
+699 silly get     etag: '"CRWER21SN8RVQ4VP4NHID61YK"',
+699 silly get     age: '0',
+699 silly get     connection: 'keep-alive',
+699 silly get     'x-served-by': 'cache-itm7421-ITM',
+699 silly get     'x-cache': 'MISS',
+699 silly get     'x-cache-hits': '0',
+699 silly get     'x-timer': 'S1449120896.278233,VS0,VE547',
+699 silly get     vary: 'Accept' } ]
+700 verbose etag http://registry.npmjs.org/postcss-color-rebeccapurple from cache
+701 verbose get saving postcss-color-rebeccapurple to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\postcss-color-rebeccapurple\.cache.json
+702 silly addNameRange number 2 { name: 'postcss-color-rebeccapurple',
+702 silly addNameRange   range: '>=2.0.0 <3.0.0',
+702 silly addNameRange   hasData: true }
+703 silly addNameRange versions [ 'postcss-color-rebeccapurple',
+703 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '2.0.0' ] ]
+704 silly addNamed postcss-color-rebeccapurple@2.0.0
+705 verbose addNamed "2.0.0" is a plain semver version for postcss-color-rebeccapurple
+706 silly cache afterAdd postcss-color-rebeccapurple@2.0.0
+707 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\postcss-color-rebeccapurple\2.0.0\package\package.json not in flight; writing
+708 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\postcss-color-rebeccapurple\2.0.0\package\package.json written
+709 http 304 http://registry.npmjs.org/redux-thunk
+710 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+710 verbose headers   via: '1.1 varnish',
+710 verbose headers   'cache-control': 'max-age=60',
+710 verbose headers   etag: '"DDPSECQNGH6YRCMV15NW0JABH"',
+710 verbose headers   age: '0',
+710 verbose headers   connection: 'keep-alive',
+710 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+710 verbose headers   'x-cache': 'MISS',
+710 verbose headers   'x-cache-hits': '0',
+710 verbose headers   'x-timer': 'S1449120896.282330,VS0,VE593',
+710 verbose headers   vary: 'Accept' }
+711 silly get cb [ 304,
+711 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+711 silly get     via: '1.1 varnish',
+711 silly get     'cache-control': 'max-age=60',
+711 silly get     etag: '"DDPSECQNGH6YRCMV15NW0JABH"',
+711 silly get     age: '0',
+711 silly get     connection: 'keep-alive',
+711 silly get     'x-served-by': 'cache-itm7424-ITM',
+711 silly get     'x-cache': 'MISS',
+711 silly get     'x-cache-hits': '0',
+711 silly get     'x-timer': 'S1449120896.282330,VS0,VE593',
+711 silly get     vary: 'Accept' } ]
+712 verbose etag http://registry.npmjs.org/redux-thunk from cache
+713 verbose get saving redux-thunk to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-thunk\.cache.json
+714 http 304 http://registry.npmjs.org/react-addons-transition-group
+715 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+715 verbose headers   via: '1.1 varnish',
+715 verbose headers   'cache-control': 'max-age=60',
+715 verbose headers   etag: '"63IQYK0X90DHFFSEDHE5JQJ7U"',
+715 verbose headers   age: '0',
+715 verbose headers   connection: 'keep-alive',
+715 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+715 verbose headers   'x-cache': 'MISS',
+715 verbose headers   'x-cache-hits': '0',
+715 verbose headers   'x-timer': 'S1449120896.283658,VS0,VE596',
+715 verbose headers   vary: 'Accept' }
+716 silly get cb [ 304,
+716 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+716 silly get     via: '1.1 varnish',
+716 silly get     'cache-control': 'max-age=60',
+716 silly get     etag: '"63IQYK0X90DHFFSEDHE5JQJ7U"',
+716 silly get     age: '0',
+716 silly get     connection: 'keep-alive',
+716 silly get     'x-served-by': 'cache-itm7427-ITM',
+716 silly get     'x-cache': 'MISS',
+716 silly get     'x-cache-hits': '0',
+716 silly get     'x-timer': 'S1449120896.283658,VS0,VE596',
+716 silly get     vary: 'Accept' } ]
+717 verbose etag http://registry.npmjs.org/react-addons-transition-group from cache
+718 verbose get saving react-addons-transition-group to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-addons-transition-group\.cache.json
+719 http 304 http://registry.npmjs.org/react
+720 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+720 verbose headers   via: '1.1 varnish',
+720 verbose headers   'cache-control': 'max-age=60',
+720 verbose headers   etag: '"5INHJGB92JHJPBMYHDQ64RH2X"',
+720 verbose headers   age: '0',
+720 verbose headers   connection: 'keep-alive',
+720 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+720 verbose headers   'x-cache': 'HIT',
+720 verbose headers   'x-cache-hits': '1',
+720 verbose headers   'x-timer': 'S1449120896.283726,VS0,VE599',
+720 verbose headers   vary: 'Accept' }
+721 silly get cb [ 304,
+721 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+721 silly get     via: '1.1 varnish',
+721 silly get     'cache-control': 'max-age=60',
+721 silly get     etag: '"5INHJGB92JHJPBMYHDQ64RH2X"',
+721 silly get     age: '0',
+721 silly get     connection: 'keep-alive',
+721 silly get     'x-served-by': 'cache-itm7427-ITM',
+721 silly get     'x-cache': 'HIT',
+721 silly get     'x-cache-hits': '1',
+721 silly get     'x-timer': 'S1449120896.283726,VS0,VE599',
+721 silly get     vary: 'Accept' } ]
+722 verbose etag http://registry.npmjs.org/react from cache
+723 verbose get saving react to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react\.cache.json
+724 silly addNameRange number 2 { name: 'redux-thunk', range: '>=0.1.0 <0.2.0', hasData: true }
+725 silly addNameRange versions [ 'redux-thunk', [ '0.1.0', '1.0.0' ] ]
+726 silly addNamed redux-thunk@0.1.0
+727 verbose addNamed "0.1.0" is a plain semver version for redux-thunk
+728 silly addNameRange number 2 { name: 'react-addons-transition-group',
+728 silly addNameRange   range: '>=0.14.3 <0.15.0',
+728 silly addNameRange   hasData: true }
+729 silly addNameRange versions [ 'react-addons-transition-group',
+729 silly addNameRange   [ '0.14.0-beta1',
+729 silly addNameRange     '0.14.0-beta2',
+729 silly addNameRange     '0.14.0-beta3',
+729 silly addNameRange     '0.14.0-rc1',
+729 silly addNameRange     '0.14.0',
+729 silly addNameRange     '0.14.1',
+729 silly addNameRange     '0.14.2',
+729 silly addNameRange     '0.14.3' ] ]
+730 silly addNamed react-addons-transition-group@0.14.3
+731 verbose addNamed "0.14.3" is a plain semver version for react-addons-transition-group
+732 silly cache afterAdd redux-thunk@0.1.0
+733 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-thunk\0.1.0\package\package.json not in flight; writing
+734 silly cache afterAdd react-addons-transition-group@0.14.3
+735 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-addons-transition-group\0.14.3\package\package.json not in flight; writing
+736 http 304 http://registry.npmjs.org/style-loader
+737 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+737 verbose headers   via: '1.1 varnish',
+737 verbose headers   'cache-control': 'max-age=60',
+737 verbose headers   etag: '"5VLG799WX3C6BF00PFT26FZ7L"',
+737 verbose headers   age: '0',
+737 verbose headers   connection: 'keep-alive',
+737 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+737 verbose headers   'x-cache': 'HIT',
+737 verbose headers   'x-cache-hits': '1',
+737 verbose headers   'x-timer': 'S1449120896.296594,VS0,VE596',
+737 verbose headers   vary: 'Accept' }
+738 silly get cb [ 304,
+738 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+738 silly get     via: '1.1 varnish',
+738 silly get     'cache-control': 'max-age=60',
+738 silly get     etag: '"5VLG799WX3C6BF00PFT26FZ7L"',
+738 silly get     age: '0',
+738 silly get     connection: 'keep-alive',
+738 silly get     'x-served-by': 'cache-itm7427-ITM',
+738 silly get     'x-cache': 'HIT',
+738 silly get     'x-cache-hits': '1',
+738 silly get     'x-timer': 'S1449120896.296594,VS0,VE596',
+738 silly get     vary: 'Accept' } ]
+739 verbose etag http://registry.npmjs.org/style-loader from cache
+740 verbose get saving style-loader to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\style-loader\.cache.json
+741 silly addNameRange number 2 { name: 'react', range: '>=0.14.3 <0.15.0', hasData: true }
+742 silly addNameRange versions [ 'react',
+742 silly addNameRange   [ '0.0.1',
+742 silly addNameRange     '0.0.2',
+742 silly addNameRange     '0.0.3',
+742 silly addNameRange     '0.1.2',
+742 silly addNameRange     '0.2.0',
+742 silly addNameRange     '0.2.1',
+742 silly addNameRange     '0.2.2',
+742 silly addNameRange     '0.2.3',
+742 silly addNameRange     '0.2.4',
+742 silly addNameRange     '0.2.5',
+742 silly addNameRange     '0.2.6',
+742 silly addNameRange     '0.3.0',
+742 silly addNameRange     '0.3.4',
+742 silly addNameRange     '0.3.5',
+742 silly addNameRange     '0.5.0',
+742 silly addNameRange     '0.5.1',
+742 silly addNameRange     '0.5.2',
+742 silly addNameRange     '0.6.0',
+742 silly addNameRange     '0.6.1',
+742 silly addNameRange     '0.6.2',
+742 silly addNameRange     '0.6.3',
+742 silly addNameRange     '0.7.0',
+742 silly addNameRange     '0.7.1',
+742 silly addNameRange     '0.8.0',
+742 silly addNameRange     '0.9.0-rc1',
+742 silly addNameRange     '0.9.0',
+742 silly addNameRange     '0.10.0-rc1',
+742 silly addNameRange     '0.10.0',
+742 silly addNameRange     '0.11.0-rc1',
+742 silly addNameRange     '0.11.0',
+742 silly addNameRange     '0.11.1',
+742 silly addNameRange     '0.11.2',
+742 silly addNameRange     '0.12.0-rc1',
+742 silly addNameRange     '0.12.0',
+742 silly addNameRange     '0.12.1',
+742 silly addNameRange     '0.12.2',
+742 silly addNameRange     '0.13.0-alpha.1',
+742 silly addNameRange     '0.13.0-alpha.2',
+742 silly addNameRange     '0.13.0-beta.1',
+742 silly addNameRange     '0.13.0-beta.2',
+742 silly addNameRange     '0.13.0-rc1',
+742 silly addNameRange     '0.13.0-rc2',
+742 silly addNameRange     '0.13.0',
+742 silly addNameRange     '0.13.1',
+742 silly addNameRange     '0.13.2',
+742 silly addNameRange     '0.13.3',
+742 silly addNameRange     '0.14.0-alpha1',
+742 silly addNameRange     '0.14.0-alpha2',
+742 silly addNameRange     '0.14.0-alpha3',
+742 silly addNameRange     '0.14.0-beta1',
+742 silly addNameRange     '0.14.0-beta2',
+742 silly addNameRange     '0.14.0-beta3',
+742 silly addNameRange     '0.14.0-rc1',
+742 silly addNameRange     '0.14.0',
+742 silly addNameRange     '0.14.1',
+742 silly addNameRange     '0.14.2',
+742 silly addNameRange     '0.14.3' ] ]
+743 silly addNamed react@0.14.3
+744 verbose addNamed "0.14.3" is a plain semver version for react
+745 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-thunk\0.1.0\package\package.json written
+746 silly cache afterAdd react@0.14.3
+747 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react\0.14.3\package\package.json not in flight; writing
+748 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-addons-transition-group\0.14.3\package\package.json written
+749 silly addNameRange number 2 { name: 'style-loader',
+749 silly addNameRange   range: '>=0.13.0 <0.14.0',
+749 silly addNameRange   hasData: true }
+750 silly addNameRange versions [ 'style-loader',
+750 silly addNameRange   [ '0.1.0',
+750 silly addNameRange     '0.1.1',
+750 silly addNameRange     '0.1.2',
+750 silly addNameRange     '0.1.3',
+750 silly addNameRange     '0.2.0',
+750 silly addNameRange     '0.2.1',
+750 silly addNameRange     '0.5.0',
+750 silly addNameRange     '0.5.1',
+750 silly addNameRange     '0.5.2',
+750 silly addNameRange     '0.6.0',
+750 silly addNameRange     '0.6.1',
+750 silly addNameRange     '0.6.2',
+750 silly addNameRange     '0.6.3',
+750 silly addNameRange     '0.6.4',
+750 silly addNameRange     '0.6.5',
+750 silly addNameRange     '0.7.0',
+750 silly addNameRange     '0.7.1',
+750 silly addNameRange     '0.8.0',
+750 silly addNameRange     '0.8.1',
+750 silly addNameRange     '0.8.2',
+750 silly addNameRange     '0.8.3',
+750 silly addNameRange     '0.9.0',
+750 silly addNameRange     '0.10.0',
+750 silly addNameRange     '0.10.1',
+750 silly addNameRange     '0.10.2',
+750 silly addNameRange     '0.11.0',
+750 silly addNameRange     '0.12.0',
+750 silly addNameRange     '0.12.1',
+750 silly addNameRange     '0.12.2',
+750 silly addNameRange     '0.12.3',
+750 silly addNameRange     '0.12.4',
+750 silly addNameRange     '0.13.0' ] ]
+751 silly addNamed style-loader@0.13.0
+752 verbose addNamed "0.13.0" is a plain semver version for style-loader
+753 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react\0.14.3\package\package.json written
+754 silly cache afterAdd style-loader@0.13.0
+755 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\style-loader\0.13.0\package\package.json not in flight; writing
+756 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\style-loader\0.13.0\package\package.json written
+757 http 304 http://registry.npmjs.org/redux-devtools-dock-monitor
+758 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+758 verbose headers   via: '1.1 varnish',
+758 verbose headers   'cache-control': 'max-age=60',
+758 verbose headers   etag: '"4KN8YUBQKGHLP37GZEYXFBCFN"',
+758 verbose headers   age: '0',
+758 verbose headers   connection: 'keep-alive',
+758 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+758 verbose headers   'x-cache': 'MISS',
+758 verbose headers   'x-cache-hits': '0',
+758 verbose headers   'x-timer': 'S1449120896.282333,VS0,VE632',
+758 verbose headers   vary: 'Accept' }
+759 silly get cb [ 304,
+759 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+759 silly get     via: '1.1 varnish',
+759 silly get     'cache-control': 'max-age=60',
+759 silly get     etag: '"4KN8YUBQKGHLP37GZEYXFBCFN"',
+759 silly get     age: '0',
+759 silly get     connection: 'keep-alive',
+759 silly get     'x-served-by': 'cache-itm7424-ITM',
+759 silly get     'x-cache': 'MISS',
+759 silly get     'x-cache-hits': '0',
+759 silly get     'x-timer': 'S1449120896.282333,VS0,VE632',
+759 silly get     vary: 'Accept' } ]
+760 verbose etag http://registry.npmjs.org/redux-devtools-dock-monitor from cache
+761 verbose get saving redux-devtools-dock-monitor to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-devtools-dock-monitor\.cache.json
+762 silly addNameRange number 2 { name: 'redux-devtools-dock-monitor',
+762 silly addNameRange   range: '>=1.0.0-beta-3 <2.0.0',
+762 silly addNameRange   hasData: true }
+763 silly addNameRange versions [ 'redux-devtools-dock-monitor',
+763 silly addNameRange   [ '1.0.0-beta-1', '1.0.0-beta-2', '1.0.0-beta-3' ] ]
+764 silly addNamed redux-devtools-dock-monitor@1.0.0-beta-3
+765 verbose addNamed "1.0.0-beta-3" is a plain semver version for redux-devtools-dock-monitor
+766 silly cache afterAdd redux-devtools-dock-monitor@1.0.0-beta-3
+767 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools-dock-monitor\1.0.0-beta-3\package\package.json not in flight; writing
+768 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools-dock-monitor\1.0.0-beta-3\package\package.json written
+769 http 304 http://registry.npmjs.org/normalizr
+770 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+770 verbose headers   via: '1.1 varnish',
+770 verbose headers   'cache-control': 'max-age=60',
+770 verbose headers   etag: '"1XIEPMTZ5KY2S37P43HCACBXD"',
+770 verbose headers   age: '0',
+770 verbose headers   connection: 'keep-alive',
+770 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+770 verbose headers   'x-cache': 'MISS',
+770 verbose headers   'x-cache-hits': '0',
+770 verbose headers   'x-timer': 'S1449120896.277747,VS0,VE675',
+770 verbose headers   vary: 'Accept' }
+771 silly get cb [ 304,
+771 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+771 silly get     via: '1.1 varnish',
+771 silly get     'cache-control': 'max-age=60',
+771 silly get     etag: '"1XIEPMTZ5KY2S37P43HCACBXD"',
+771 silly get     age: '0',
+771 silly get     connection: 'keep-alive',
+771 silly get     'x-served-by': 'cache-itm7426-ITM',
+771 silly get     'x-cache': 'MISS',
+771 silly get     'x-cache-hits': '0',
+771 silly get     'x-timer': 'S1449120896.277747,VS0,VE675',
+771 silly get     vary: 'Accept' } ]
+772 verbose etag http://registry.npmjs.org/normalizr from cache
+773 verbose get saving normalizr to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\normalizr\.cache.json
+774 http 304 http://registry.npmjs.org/webpack-hot-middleware
+775 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+775 verbose headers   via: '1.1 varnish',
+775 verbose headers   'cache-control': 'max-age=60',
+775 verbose headers   etag: '"D0D82QVH7EANC5Q9JES69UPHP"',
+775 verbose headers   age: '0',
+775 verbose headers   connection: 'keep-alive',
+775 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+775 verbose headers   'x-cache': 'MISS',
+775 verbose headers   'x-cache-hits': '0',
+775 verbose headers   'x-timer': 'S1449120896.277805,VS0,VE675',
+775 verbose headers   vary: 'Accept' }
+776 silly get cb [ 304,
+776 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+776 silly get     via: '1.1 varnish',
+776 silly get     'cache-control': 'max-age=60',
+776 silly get     etag: '"D0D82QVH7EANC5Q9JES69UPHP"',
+776 silly get     age: '0',
+776 silly get     connection: 'keep-alive',
+776 silly get     'x-served-by': 'cache-itm7426-ITM',
+776 silly get     'x-cache': 'MISS',
+776 silly get     'x-cache-hits': '0',
+776 silly get     'x-timer': 'S1449120896.277805,VS0,VE675',
+776 silly get     vary: 'Accept' } ]
+777 verbose etag http://registry.npmjs.org/webpack-hot-middleware from cache
+778 verbose get saving webpack-hot-middleware to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\webpack-hot-middleware\.cache.json
+779 silly addNameRange number 2 { name: 'normalizr', range: '>=1.3.1 <2.0.0', hasData: true }
+780 silly addNameRange versions [ 'normalizr',
+780 silly addNameRange   [ '0.1.0',
+780 silly addNameRange     '0.1.1',
+780 silly addNameRange     '0.1.2',
+780 silly addNameRange     '0.1.3',
+780 silly addNameRange     '1.0.0',
+780 silly addNameRange     '1.1.0',
+780 silly addNameRange     '1.2.0',
+780 silly addNameRange     '1.3.0',
+780 silly addNameRange     '1.3.1',
+780 silly addNameRange     '1.4.0' ] ]
+781 silly addNamed normalizr@1.4.0
+782 verbose addNamed "1.4.0" is a plain semver version for normalizr
+783 silly addNameRange number 2 { name: 'webpack-hot-middleware',
+783 silly addNameRange   range: '>=2.4.1 <3.0.0',
+783 silly addNameRange   hasData: true }
+784 silly addNameRange versions [ 'webpack-hot-middleware',
+784 silly addNameRange   [ '1.0.0-dev',
+784 silly addNameRange     '1.0.0',
+784 silly addNameRange     '1.1.0',
+784 silly addNameRange     '1.2.0',
+784 silly addNameRange     '2.0.0',
+784 silly addNameRange     '2.0.1',
+784 silly addNameRange     '2.0.2',
+784 silly addNameRange     '2.1.0',
+784 silly addNameRange     '2.2.0',
+784 silly addNameRange     '2.2.1',
+784 silly addNameRange     '2.3.0',
+784 silly addNameRange     '2.4.0',
+784 silly addNameRange     '2.4.1',
+784 silly addNameRange     '2.5.0',
+784 silly addNameRange     '2.5.1',
+784 silly addNameRange     '2.6.0' ] ]
+785 silly addNamed webpack-hot-middleware@2.6.0
+786 verbose addNamed "2.6.0" is a plain semver version for webpack-hot-middleware
+787 silly cache afterAdd normalizr@1.4.0
+788 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\normalizr\1.4.0\package\package.json not in flight; writing
+789 silly cache afterAdd webpack-hot-middleware@2.6.0
+790 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack-hot-middleware\2.6.0\package\package.json not in flight; writing
+791 http 304 http://registry.npmjs.org/isomorphic-fetch
+792 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+792 verbose headers   via: '1.1 varnish',
+792 verbose headers   'cache-control': 'max-age=60',
+792 verbose headers   etag: '"77HRAFJB0ZLFKQI7W2UBN12LW"',
+792 verbose headers   age: '0',
+792 verbose headers   connection: 'keep-alive',
+792 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+792 verbose headers   'x-cache': 'MISS',
+792 verbose headers   'x-cache-hits': '0',
+792 verbose headers   'x-timer': 'S1449120896.280646,VS0,VE702',
+792 verbose headers   vary: 'Accept' }
+793 silly get cb [ 304,
+793 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+793 silly get     via: '1.1 varnish',
+793 silly get     'cache-control': 'max-age=60',
+793 silly get     etag: '"77HRAFJB0ZLFKQI7W2UBN12LW"',
+793 silly get     age: '0',
+793 silly get     connection: 'keep-alive',
+793 silly get     'x-served-by': 'cache-itm7422-ITM',
+793 silly get     'x-cache': 'MISS',
+793 silly get     'x-cache-hits': '0',
+793 silly get     'x-timer': 'S1449120896.280646,VS0,VE702',
+793 silly get     vary: 'Accept' } ]
+794 verbose etag http://registry.npmjs.org/isomorphic-fetch from cache
+795 verbose get saving isomorphic-fetch to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\isomorphic-fetch\.cache.json
+796 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\normalizr\1.4.0\package\package.json written
+797 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack-hot-middleware\2.6.0\package\package.json written
+798 silly addNameRange number 2 { name: 'isomorphic-fetch',
+798 silly addNameRange   range: '>=2.2.0 <3.0.0',
+798 silly addNameRange   hasData: true }
+799 silly addNameRange versions [ 'isomorphic-fetch',
+799 silly addNameRange   [ '1.0.0',
+799 silly addNameRange     '1.0.2',
+799 silly addNameRange     '1.1.0',
+799 silly addNameRange     '1.1.1',
+799 silly addNameRange     '1.1.2',
+799 silly addNameRange     '1.1.3',
+799 silly addNameRange     '1.2.0',
+799 silly addNameRange     '1.3.0',
+799 silly addNameRange     '1.4.0',
+799 silly addNameRange     '1.5.0',
+799 silly addNameRange     '1.5.1',
+799 silly addNameRange     '1.5.2',
+799 silly addNameRange     '1.6.0',
+799 silly addNameRange     '1.6.1',
+799 silly addNameRange     '1.7.0',
+799 silly addNameRange     '2.0.0',
+799 silly addNameRange     '2.0.1',
+799 silly addNameRange     '2.0.2',
+799 silly addNameRange     '2.1.0',
+799 silly addNameRange     '2.1.1',
+799 silly addNameRange     '2.2.0' ] ]
+800 silly addNamed isomorphic-fetch@2.2.0
+801 verbose addNamed "2.2.0" is a plain semver version for isomorphic-fetch
+802 silly cache afterAdd isomorphic-fetch@2.2.0
+803 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\isomorphic-fetch\2.2.0\package\package.json not in flight; writing
+804 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\isomorphic-fetch\2.2.0\package\package.json written
+805 http 304 http://registry.npmjs.org/history
+806 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+806 verbose headers   via: '1.1 varnish',
+806 verbose headers   'cache-control': 'max-age=60',
+806 verbose headers   etag: '"CYFGDN21V6HKXL6P9JEL5WKTI"',
+806 verbose headers   age: '0',
+806 verbose headers   connection: 'keep-alive',
+806 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+806 verbose headers   'x-cache': 'HIT',
+806 verbose headers   'x-cache-hits': '1',
+806 verbose headers   'x-timer': 'S1449120896.277693,VS0,VE750',
+806 verbose headers   vary: 'Accept' }
+807 silly get cb [ 304,
+807 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+807 silly get     via: '1.1 varnish',
+807 silly get     'cache-control': 'max-age=60',
+807 silly get     etag: '"CYFGDN21V6HKXL6P9JEL5WKTI"',
+807 silly get     age: '0',
+807 silly get     connection: 'keep-alive',
+807 silly get     'x-served-by': 'cache-itm7426-ITM',
+807 silly get     'x-cache': 'HIT',
+807 silly get     'x-cache-hits': '1',
+807 silly get     'x-timer': 'S1449120896.277693,VS0,VE750',
+807 silly get     vary: 'Accept' } ]
+808 verbose etag http://registry.npmjs.org/history from cache
+809 verbose get saving history to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\history\.cache.json
+810 http 304 http://registry.npmjs.org/extract-text-webpack-plugin
+811 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+811 verbose headers   via: '1.1 varnish',
+811 verbose headers   'cache-control': 'max-age=60',
+811 verbose headers   etag: '"9IGMLVVDS82EP379O0K2WTNQP"',
+811 verbose headers   age: '0',
+811 verbose headers   connection: 'keep-alive',
+811 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+811 verbose headers   'x-cache': 'HIT',
+811 verbose headers   'x-cache-hits': '1',
+811 verbose headers   'x-timer': 'S1449120896.278259,VS0,VE752',
+811 verbose headers   vary: 'Accept' }
+812 silly get cb [ 304,
+812 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+812 silly get     via: '1.1 varnish',
+812 silly get     'cache-control': 'max-age=60',
+812 silly get     etag: '"9IGMLVVDS82EP379O0K2WTNQP"',
+812 silly get     age: '0',
+812 silly get     connection: 'keep-alive',
+812 silly get     'x-served-by': 'cache-itm7421-ITM',
+812 silly get     'x-cache': 'HIT',
+812 silly get     'x-cache-hits': '1',
+812 silly get     'x-timer': 'S1449120896.278259,VS0,VE752',
+812 silly get     vary: 'Accept' } ]
+813 verbose etag http://registry.npmjs.org/extract-text-webpack-plugin from cache
+814 verbose get saving extract-text-webpack-plugin to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\extract-text-webpack-plugin\.cache.json
+815 http 304 http://registry.npmjs.org/react-dom
+816 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+816 verbose headers   via: '1.1 varnish',
+816 verbose headers   'cache-control': 'max-age=60',
+816 verbose headers   etag: '"9OJ2K9EXV8M3J537XMKG56ZWE"',
+816 verbose headers   age: '0',
+816 verbose headers   connection: 'keep-alive',
+816 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+816 verbose headers   'x-cache': 'HIT',
+816 verbose headers   'x-cache-hits': '1',
+816 verbose headers   'x-timer': 'S1449120896.282992,VS0,VE756',
+816 verbose headers   vary: 'Accept' }
+817 silly get cb [ 304,
+817 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+817 silly get     via: '1.1 varnish',
+817 silly get     'cache-control': 'max-age=60',
+817 silly get     etag: '"9OJ2K9EXV8M3J537XMKG56ZWE"',
+817 silly get     age: '0',
+817 silly get     connection: 'keep-alive',
+817 silly get     'x-served-by': 'cache-itm7422-ITM',
+817 silly get     'x-cache': 'HIT',
+817 silly get     'x-cache-hits': '1',
+817 silly get     'x-timer': 'S1449120896.282992,VS0,VE756',
+817 silly get     vary: 'Accept' } ]
+818 verbose etag http://registry.npmjs.org/react-dom from cache
+819 verbose get saving react-dom to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-dom\.cache.json
+820 http 304 http://registry.npmjs.org/material-ui
+821 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+821 verbose headers   via: '1.1 varnish',
+821 verbose headers   'cache-control': 'max-age=60',
+821 verbose headers   etag: '"PSOVI4VGNY7AMYLFYNXABCL9"',
+821 verbose headers   age: '0',
+821 verbose headers   connection: 'keep-alive',
+821 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+821 verbose headers   'x-cache': 'MISS',
+821 verbose headers   'x-cache-hits': '0',
+821 verbose headers   'x-timer': 'S1449120896.277808,VS0,VE757',
+821 verbose headers   vary: 'Accept' }
+822 silly get cb [ 304,
+822 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+822 silly get     via: '1.1 varnish',
+822 silly get     'cache-control': 'max-age=60',
+822 silly get     etag: '"PSOVI4VGNY7AMYLFYNXABCL9"',
+822 silly get     age: '0',
+822 silly get     connection: 'keep-alive',
+822 silly get     'x-served-by': 'cache-itm7426-ITM',
+822 silly get     'x-cache': 'MISS',
+822 silly get     'x-cache-hits': '0',
+822 silly get     'x-timer': 'S1449120896.277808,VS0,VE757',
+822 silly get     vary: 'Accept' } ]
+823 verbose etag http://registry.npmjs.org/material-ui from cache
+824 verbose get saving material-ui to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\material-ui\.cache.json
+825 silly addNameRange number 2 { name: 'extract-text-webpack-plugin',
+825 silly addNameRange   range: '>=0.9.1 <0.10.0',
+825 silly addNameRange   hasData: true }
+826 silly addNameRange versions [ 'extract-text-webpack-plugin',
+826 silly addNameRange   [ '0.1.0',
+826 silly addNameRange     '0.1.1',
+826 silly addNameRange     '0.1.2',
+826 silly addNameRange     '0.2.0',
+826 silly addNameRange     '0.2.1',
+826 silly addNameRange     '0.2.2',
+826 silly addNameRange     '0.2.3',
+826 silly addNameRange     '0.2.4',
+826 silly addNameRange     '0.2.5',
+826 silly addNameRange     '0.3.0',
+826 silly addNameRange     '0.3.1',
+826 silly addNameRange     '0.3.2',
+826 silly addNameRange     '0.3.3',
+826 silly addNameRange     '0.3.4',
+826 silly addNameRange     '0.3.5',
+826 silly addNameRange     '0.3.6',
+826 silly addNameRange     '0.3.7',
+826 silly addNameRange     '0.3.8',
+826 silly addNameRange     '0.4.0',
+826 silly addNameRange     '0.5.0',
+826 silly addNameRange     '0.6.0',
+826 silly addNameRange     '0.7.0',
+826 silly addNameRange     '0.7.1',
+826 silly addNameRange     '0.8.0',
+826 silly addNameRange     '0.8.1',
+826 silly addNameRange     '0.8.2',
+826 silly addNameRange     '0.9.0',
+826 silly addNameRange     '0.9.1' ] ]
+827 silly addNamed extract-text-webpack-plugin@0.9.1
+828 verbose addNamed "0.9.1" is a plain semver version for extract-text-webpack-plugin
+829 silly addNameRange number 2 { name: 'history', range: '>=1.12.6 <2.0.0', hasData: true }
+830 silly addNameRange versions [ 'history',
+830 silly addNameRange   [ '0.1.0',
+830 silly addNameRange     '1.0.0',
+830 silly addNameRange     '1.1.0',
+830 silly addNameRange     '1.2.0',
+830 silly addNameRange     '1.2.1',
+830 silly addNameRange     '1.2.2',
+830 silly addNameRange     '1.3.0',
+830 silly addNameRange     '1.3.1',
+830 silly addNameRange     '1.3.2',
+830 silly addNameRange     '1.3.3',
+830 silly addNameRange     '1.4.0',
+830 silly addNameRange     '1.4.1',
+830 silly addNameRange     '1.5.0',
+830 silly addNameRange     '1.6.0',
+830 silly addNameRange     '1.7.0',
+830 silly addNameRange     '1.8.0',
+830 silly addNameRange     '1.8.1',
+830 silly addNameRange     '1.8.2',
+830 silly addNameRange     '1.8.3',
+830 silly addNameRange     '1.8.4',
+830 silly addNameRange     '1.8.5',
+830 silly addNameRange     '1.9.0',
+830 silly addNameRange     '1.9.1',
+830 silly addNameRange     '1.10.0',
+830 silly addNameRange     '1.10.1',
+830 silly addNameRange     '1.10.2',
+830 silly addNameRange     '1.11.0',
+830 silly addNameRange     '1.11.1',
+830 silly addNameRange     '1.12.0',
+830 silly addNameRange     '1.12.1',
+830 silly addNameRange     '1.12.2',
+830 silly addNameRange     '1.12.3',
+830 silly addNameRange     '1.12.4',
+830 silly addNameRange     '1.12.5',
+830 silly addNameRange     '1.12.6',
+830 silly addNameRange     '1.13.0',
+830 silly addNameRange     '1.13.1' ] ]
+831 silly addNamed history@1.13.1
+832 verbose addNamed "1.13.1" is a plain semver version for history
+833 silly addNameRange number 2 { name: 'react-dom', range: '>=0.14.3 <0.15.0', hasData: true }
+834 silly addNameRange versions [ 'react-dom',
+834 silly addNameRange   [ '0.1.0',
+834 silly addNameRange     '0.14.0-beta1',
+834 silly addNameRange     '0.14.0-beta2',
+834 silly addNameRange     '0.14.0-beta3',
+834 silly addNameRange     '0.14.0-rc1',
+834 silly addNameRange     '0.14.0',
+834 silly addNameRange     '0.14.1',
+834 silly addNameRange     '0.14.2',
+834 silly addNameRange     '0.14.3' ] ]
+835 silly addNamed react-dom@0.14.3
+836 verbose addNamed "0.14.3" is a plain semver version for react-dom
+837 http 304 http://registry.npmjs.org/react-transform-hmr
+838 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+838 verbose headers   via: '1.1 varnish',
+838 verbose headers   'cache-control': 'max-age=60',
+838 verbose headers   etag: '"EPUOJRVTAE0WYYHRFWM50V07N"',
+838 verbose headers   age: '0',
+838 verbose headers   connection: 'keep-alive',
+838 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+838 verbose headers   'x-cache': 'MISS',
+838 verbose headers   'x-cache-hits': '0',
+838 verbose headers   'x-timer': 'S1449120896.283679,VS0,VE769',
+838 verbose headers   vary: 'Accept' }
+839 silly get cb [ 304,
+839 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+839 silly get     via: '1.1 varnish',
+839 silly get     'cache-control': 'max-age=60',
+839 silly get     etag: '"EPUOJRVTAE0WYYHRFWM50V07N"',
+839 silly get     age: '0',
+839 silly get     connection: 'keep-alive',
+839 silly get     'x-served-by': 'cache-itm7427-ITM',
+839 silly get     'x-cache': 'MISS',
+839 silly get     'x-cache-hits': '0',
+839 silly get     'x-timer': 'S1449120896.283679,VS0,VE769',
+839 silly get     vary: 'Accept' } ]
+840 verbose etag http://registry.npmjs.org/react-transform-hmr from cache
+841 verbose get saving react-transform-hmr to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-transform-hmr\.cache.json
+842 silly cache afterAdd extract-text-webpack-plugin@0.9.1
+843 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\extract-text-webpack-plugin\0.9.1\package\package.json not in flight; writing
+844 silly addNameRange number 2 { name: 'material-ui', range: '>=0.13.4 <0.14.0', hasData: true }
+845 silly addNameRange versions [ 'material-ui',
+845 silly addNameRange   [ '0.1.0',
+845 silly addNameRange     '0.1.1',
+845 silly addNameRange     '0.1.2',
+845 silly addNameRange     '0.1.21',
+845 silly addNameRange     '0.1.22',
+845 silly addNameRange     '0.1.23',
+845 silly addNameRange     '0.1.24',
+845 silly addNameRange     '0.1.25',
+845 silly addNameRange     '0.1.26',
+845 silly addNameRange     '0.1.27',
+845 silly addNameRange     '0.1.28',
+845 silly addNameRange     '0.1.29',
+845 silly addNameRange     '0.1.30',
+845 silly addNameRange     '0.2.0',
+845 silly addNameRange     '0.2.1',
+845 silly addNameRange     '0.2.2',
+845 silly addNameRange     '0.3.0',
+845 silly addNameRange     '0.3.1',
+845 silly addNameRange     '0.3.2',
+845 silly addNameRange     '0.3.3',
+845 silly addNameRange     '0.4.0',
+845 silly addNameRange     '0.4.1',
+845 silly addNameRange     '0.5.0',
+845 silly addNameRange     '0.6.0',
+845 silly addNameRange     '0.6.1',
+845 silly addNameRange     '0.7.0',
+845 silly addNameRange     '0.7.1',
+845 silly addNameRange     '0.7.2',
+845 silly addNameRange     '0.7.3',
+845 silly addNameRange     '0.7.4',
+845 silly addNameRange     '0.7.5',
+845 silly addNameRange     '0.8.0',
+845 silly addNameRange     '0.9.0',
+845 silly addNameRange     '0.9.1',
+845 silly addNameRange     '0.9.2',
+845 silly addNameRange     '0.10.0',
+845 silly addNameRange     '0.10.1',
+845 silly addNameRange     '0.10.2',
+845 silly addNameRange     '0.10.3',
+845 silly addNameRange     '0.10.4',
+845 silly addNameRange     '0.11.0',
+845 silly addNameRange     '0.11.1',
+845 silly addNameRange     '0.12.0',
+845 silly addNameRange     '0.12.1',
+845 silly addNameRange     '0.12.2',
+845 silly addNameRange     '0.12.3',
+845 silly addNameRange     '0.12.4',
+845 silly addNameRange     '0.12.5',
+845 silly addNameRange     '0.13.0',
+845 silly addNameRange     '0.13.1',
+845 silly addNameRange     '0.13.2',
+845 silly addNameRange     '0.13.3',
+845 silly addNameRange     '0.13.4' ] ]
+846 silly addNamed material-ui@0.13.4
+847 verbose addNamed "0.13.4" is a plain semver version for material-ui
+848 silly cache afterAdd history@1.13.1
+849 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\history\1.13.1\package\package.json not in flight; writing
+850 http 304 http://registry.npmjs.org/redux-router
+851 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+851 verbose headers   via: '1.1 varnish',
+851 verbose headers   'cache-control': 'max-age=60',
+851 verbose headers   etag: '"AROGIEW3WOM2UC8DH8HMVJVHI"',
+851 verbose headers   age: '0',
+851 verbose headers   connection: 'keep-alive',
+851 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+851 verbose headers   'x-cache': 'MISS',
+851 verbose headers   'x-cache-hits': '0',
+851 verbose headers   'x-timer': 'S1449120896.278274,VS0,VE775',
+851 verbose headers   vary: 'Accept' }
+852 silly get cb [ 304,
+852 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+852 silly get     via: '1.1 varnish',
+852 silly get     'cache-control': 'max-age=60',
+852 silly get     etag: '"AROGIEW3WOM2UC8DH8HMVJVHI"',
+852 silly get     age: '0',
+852 silly get     connection: 'keep-alive',
+852 silly get     'x-served-by': 'cache-itm7420-ITM',
+852 silly get     'x-cache': 'MISS',
+852 silly get     'x-cache-hits': '0',
+852 silly get     'x-timer': 'S1449120896.278274,VS0,VE775',
+852 silly get     vary: 'Accept' } ]
+853 verbose etag http://registry.npmjs.org/redux-router from cache
+854 verbose get saving redux-router to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-router\.cache.json
+855 silly cache afterAdd react-dom@0.14.3
+856 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-dom\0.14.3\package\package.json not in flight; writing
+857 http 304 http://registry.npmjs.org/redux-devtools
+858 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+858 verbose headers   via: '1.1 varnish',
+858 verbose headers   'cache-control': 'max-age=60',
+858 verbose headers   etag: '"74EA32UO6BKHJL1I9SYAC5FLZ"',
+858 verbose headers   age: '0',
+858 verbose headers   connection: 'keep-alive',
+858 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+858 verbose headers   'x-cache': 'MISS',
+858 verbose headers   'x-cache-hits': '0',
+858 verbose headers   'x-timer': 'S1449120896.277811,VS0,VE782',
+858 verbose headers   vary: 'Accept' }
+859 silly get cb [ 304,
+859 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+859 silly get     via: '1.1 varnish',
+859 silly get     'cache-control': 'max-age=60',
+859 silly get     etag: '"74EA32UO6BKHJL1I9SYAC5FLZ"',
+859 silly get     age: '0',
+859 silly get     connection: 'keep-alive',
+859 silly get     'x-served-by': 'cache-itm7426-ITM',
+859 silly get     'x-cache': 'MISS',
+859 silly get     'x-cache-hits': '0',
+859 silly get     'x-timer': 'S1449120896.277811,VS0,VE782',
+859 silly get     vary: 'Accept' } ]
+860 verbose etag http://registry.npmjs.org/redux-devtools from cache
+861 verbose get saving redux-devtools to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-devtools\.cache.json
+862 silly cache afterAdd material-ui@0.13.4
+863 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\material-ui\0.13.4\package\package.json not in flight; writing
+864 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\extract-text-webpack-plugin\0.9.1\package\package.json written
+865 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\history\1.13.1\package\package.json written
+866 silly addNameRange number 2 { name: 'react-transform-hmr',
+866 silly addNameRange   range: '>=1.0.1 <2.0.0',
+866 silly addNameRange   hasData: true }
+867 silly addNameRange versions [ 'react-transform-hmr',
+867 silly addNameRange   [ '0.1.5', '0.1.6', '1.0.0', '1.0.1' ] ]
+868 silly addNamed react-transform-hmr@1.0.1
+869 verbose addNamed "1.0.1" is a plain semver version for react-transform-hmr
+870 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-dom\0.14.3\package\package.json written
+871 silly cache afterAdd react-transform-hmr@1.0.1
+872 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-transform-hmr\1.0.1\package\package.json not in flight; writing
+873 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\material-ui\0.13.4\package\package.json written
+874 silly addNameRange number 2 { name: 'redux-router',
+874 silly addNameRange   range: '>=1.0.0-beta3 <2.0.0',
+874 silly addNameRange   hasData: true }
+875 silly addNameRange versions [ 'redux-router',
+875 silly addNameRange   [ '0.1.0', '1.0.0-beta3', '1.0.0-beta4', '1.0.0-beta5' ] ]
+876 silly addNamed redux-router@1.0.0-beta5
+877 verbose addNamed "1.0.0-beta5" is a plain semver version for redux-router
+878 silly addNameRange number 2 { name: 'redux-devtools',
+878 silly addNameRange   range: '>=3.0.0-beta-3 <4.0.0',
+878 silly addNameRange   hasData: true }
+879 silly addNameRange versions [ 'redux-devtools',
+879 silly addNameRange   [ '0.1.0',
+879 silly addNameRange     '0.1.1',
+879 silly addNameRange     '0.1.2',
+879 silly addNameRange     '0.1.3',
+879 silly addNameRange     '0.2.0',
+879 silly addNameRange     '1.0.0',
+879 silly addNameRange     '1.0.2',
+879 silly addNameRange     '1.1.0',
+879 silly addNameRange     '1.1.1',
+879 silly addNameRange     '1.1.2',
+879 silly addNameRange     '2.0.0',
+879 silly addNameRange     '2.1.0',
+879 silly addNameRange     '2.1.1',
+879 silly addNameRange     '2.1.2',
+879 silly addNameRange     '2.1.3',
+879 silly addNameRange     '3.0.0-alpha',
+879 silly addNameRange     '3.0.0-alpha-1',
+879 silly addNameRange     '3.0.0-alpha-2',
+879 silly addNameRange     '2.1.4',
+879 silly addNameRange     '3.0.0-alpha-3',
+879 silly addNameRange     '2.1.5',
+879 silly addNameRange     '3.0.0-alpha-4',
+879 silly addNameRange     '3.0.0-alpha-7',
+879 silly addNameRange     '3.0.0-beta-2',
+879 silly addNameRange     '3.0.0-beta-3' ] ]
+880 silly addNamed redux-devtools@3.0.0-beta-3
+881 verbose addNamed "3.0.0-beta-3" is a plain semver version for redux-devtools
+882 silly cache afterAdd redux-router@1.0.0-beta5
+883 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-router\1.0.0-beta5\package\package.json not in flight; writing
+884 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-transform-hmr\1.0.1\package\package.json written
+885 http 304 http://registry.npmjs.org/redux
+886 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+886 verbose headers   via: '1.1 varnish',
+886 verbose headers   'cache-control': 'max-age=60',
+886 verbose headers   etag: '"5CWGQ27DNM3RV6TKUQPPDHV9M"',
+886 verbose headers   age: '0',
+886 verbose headers   connection: 'keep-alive',
+886 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+886 verbose headers   'x-cache': 'MISS',
+886 verbose headers   'x-cache-hits': '0',
+886 verbose headers   'x-timer': 'S1449120896.283630,VS0,VE798',
+886 verbose headers   vary: 'Accept' }
+887 silly get cb [ 304,
+887 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+887 silly get     via: '1.1 varnish',
+887 silly get     'cache-control': 'max-age=60',
+887 silly get     etag: '"5CWGQ27DNM3RV6TKUQPPDHV9M"',
+887 silly get     age: '0',
+887 silly get     connection: 'keep-alive',
+887 silly get     'x-served-by': 'cache-itm7427-ITM',
+887 silly get     'x-cache': 'MISS',
+887 silly get     'x-cache-hits': '0',
+887 silly get     'x-timer': 'S1449120896.283630,VS0,VE798',
+887 silly get     vary: 'Accept' } ]
+888 verbose etag http://registry.npmjs.org/redux from cache
+889 verbose get saving redux to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux\.cache.json
+890 silly cache afterAdd redux-devtools@3.0.0-beta-3
+891 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools\3.0.0-beta-3\package\package.json not in flight; writing
+892 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-router\1.0.0-beta5\package\package.json written
+893 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools\3.0.0-beta-3\package\package.json written
+894 http 304 http://registry.npmjs.org/react-redux
+895 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+895 verbose headers   via: '1.1 varnish',
+895 verbose headers   'cache-control': 'max-age=60',
+895 verbose headers   etag: '"3IJ9XUJ6Q8GD9OPXW3E3LWVMV"',
+895 verbose headers   age: '0',
+895 verbose headers   connection: 'keep-alive',
+895 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+895 verbose headers   'x-cache': 'MISS',
+895 verbose headers   'x-cache-hits': '0',
+895 verbose headers   'x-timer': 'S1449120896.283537,VS0,VE807',
+895 verbose headers   vary: 'Accept' }
+896 silly get cb [ 304,
+896 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+896 silly get     via: '1.1 varnish',
+896 silly get     'cache-control': 'max-age=60',
+896 silly get     etag: '"3IJ9XUJ6Q8GD9OPXW3E3LWVMV"',
+896 silly get     age: '0',
+896 silly get     connection: 'keep-alive',
+896 silly get     'x-served-by': 'cache-itm7427-ITM',
+896 silly get     'x-cache': 'MISS',
+896 silly get     'x-cache-hits': '0',
+896 silly get     'x-timer': 'S1449120896.283537,VS0,VE807',
+896 silly get     vary: 'Accept' } ]
+897 verbose etag http://registry.npmjs.org/react-redux from cache
+898 verbose get saving react-redux to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-redux\.cache.json
+899 http 304 http://registry.npmjs.org/react-router
+900 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+900 verbose headers   via: '1.1 varnish',
+900 verbose headers   'cache-control': 'max-age=60',
+900 verbose headers   etag: '"CJ8W9ZXZQWMKGILB0IF0U5W5R"',
+900 verbose headers   age: '0',
+900 verbose headers   connection: 'keep-alive',
+900 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+900 verbose headers   'x-cache': 'HIT',
+900 verbose headers   'x-cache-hits': '1',
+900 verbose headers   'x-timer': 'S1449120896.283639,VS0,VE807',
+900 verbose headers   vary: 'Accept' }
+901 silly get cb [ 304,
+901 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+901 silly get     via: '1.1 varnish',
+901 silly get     'cache-control': 'max-age=60',
+901 silly get     etag: '"CJ8W9ZXZQWMKGILB0IF0U5W5R"',
+901 silly get     age: '0',
+901 silly get     connection: 'keep-alive',
+901 silly get     'x-served-by': 'cache-itm7427-ITM',
+901 silly get     'x-cache': 'HIT',
+901 silly get     'x-cache-hits': '1',
+901 silly get     'x-timer': 'S1449120896.283639,VS0,VE807',
+901 silly get     vary: 'Accept' } ]
+902 verbose etag http://registry.npmjs.org/react-router from cache
+903 verbose get saving react-router to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\react-router\.cache.json
+904 silly addNameRange number 2 { name: 'redux', range: '>=3.0.4 <4.0.0', hasData: true }
+905 silly addNameRange versions [ 'redux',
+905 silly addNameRange   [ '0.0.1',
+905 silly addNameRange     '0.0.2',
+905 silly addNameRange     '0.0.3',
+905 silly addNameRange     '0.0.4',
+905 silly addNameRange     '0.1.0',
+905 silly addNameRange     '0.2.0',
+905 silly addNameRange     '0.2.1',
+905 silly addNameRange     '0.2.2',
+905 silly addNameRange     '0.3.0',
+905 silly addNameRange     '0.3.1',
+905 silly addNameRange     '0.4.0',
+905 silly addNameRange     '0.5.0',
+905 silly addNameRange     '0.5.1',
+905 silly addNameRange     '0.6.0',
+905 silly addNameRange     '0.6.1',
+905 silly addNameRange     '0.6.2',
+905 silly addNameRange     '0.7.0',
+905 silly addNameRange     '0.8.0',
+905 silly addNameRange     '0.8.1',
+905 silly addNameRange     '0.9.0',
+905 silly addNameRange     '0.10.0',
+905 silly addNameRange     '0.10.1',
+905 silly addNameRange     '0.11.0',
+905 silly addNameRange     '0.11.1',
+905 silly addNameRange     '0.12.0',
+905 silly addNameRange     '1.0.0-alpha',
+905 silly addNameRange     '1.0.0-rc',
+905 silly addNameRange     '1.0.0',
+905 silly addNameRange     '1.0.1',
+905 silly addNameRange     '2.0.0',
+905 silly addNameRange     '3.0.0',
+905 silly addNameRange     '3.0.1',
+905 silly addNameRange     '3.0.2',
+905 silly addNameRange     '3.0.3',
+905 silly addNameRange     '3.0.4' ] ]
+906 silly addNamed redux@3.0.4
+907 verbose addNamed "3.0.4" is a plain semver version for redux
+908 silly cache afterAdd redux@3.0.4
+909 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux\3.0.4\package\package.json not in flight; writing
+910 silly addNameRange number 2 { name: 'react-redux', range: '>=2.1.2 <3.0.0', hasData: true }
+911 silly addNameRange versions [ 'react-redux',
+911 silly addNameRange   [ '0.1.0',
+911 silly addNameRange     '1.0.0-alpha',
+911 silly addNameRange     '0.2.0',
+911 silly addNameRange     '0.2.1',
+911 silly addNameRange     '0.2.2',
+911 silly addNameRange     '0.3.0',
+911 silly addNameRange     '0.4.0',
+911 silly addNameRange     '0.5.0',
+911 silly addNameRange     '0.5.1',
+911 silly addNameRange     '0.5.2',
+911 silly addNameRange     '0.5.3',
+911 silly addNameRange     '0.6.0',
+911 silly addNameRange     '0.7.0',
+911 silly addNameRange     '0.8.0',
+911 silly addNameRange     '0.8.1',
+911 silly addNameRange     '0.8.2',
+911 silly addNameRange     '0.9.0',
+911 silly addNameRange     '1.0.0',
+911 silly addNameRange     '1.0.1',
+911 silly addNameRange     '2.0.0',
+911 silly addNameRange     '2.1.0',
+911 silly addNameRange     '2.1.1',
+911 silly addNameRange     '2.1.2',
+911 silly addNameRange     '3.0.0-alpha',
+911 silly addNameRange     '3.0.0',
+911 silly addNameRange     '3.0.1',
+911 silly addNameRange     '3.1.0',
+911 silly addNameRange     '4.0.0' ] ]
+912 silly addNamed react-redux@2.1.2
+913 verbose addNamed "2.1.2" is a plain semver version for react-redux
+914 silly addNameRange number 2 { name: 'react-router',
+914 silly addNameRange   range: '>=1.0.0-rc3 <2.0.0',
+914 silly addNameRange   hasData: true }
+915 silly addNameRange versions [ 'react-router',
+915 silly addNameRange   [ '0.0.0',
+915 silly addNameRange     '0.0.1',
+915 silly addNameRange     '0.4.0',
+915 silly addNameRange     '0.4.1',
+915 silly addNameRange     '0.4.2',
+915 silly addNameRange     '0.5.0',
+915 silly addNameRange     '0.5.1',
+915 silly addNameRange     '0.5.2',
+915 silly addNameRange     '0.5.3',
+915 silly addNameRange     '0.6.0',
+915 silly addNameRange     '0.6.1',
+915 silly addNameRange     '0.7.0',
+915 silly addNameRange     '0.8.0',
+915 silly addNameRange     '0.9.0',
+915 silly addNameRange     '0.9.1',
+915 silly addNameRange     '0.9.2',
+915 silly addNameRange     '0.9.3',
+915 silly addNameRange     '0.9.4',
+915 silly addNameRange     '0.9.5',
+915 silly addNameRange     '0.10.0',
+915 silly addNameRange     '0.10.1',
+915 silly addNameRange     '0.10.2',
+915 silly addNameRange     '0.11.0',
+915 silly addNameRange     '0.11.1',
+915 silly addNameRange     '0.11.2',
+915 silly addNameRange     '0.11.3',
+915 silly addNameRange     '0.11.4',
+915 silly addNameRange     '0.11.5',
+915 silly addNameRange     '0.11.6',
+915 silly addNameRange     '0.12.0',
+915 silly addNameRange     '0.12.1',
+915 silly addNameRange     '0.12.2',
+915 silly addNameRange     '0.12.3',
+915 silly addNameRange     '0.12.4',
+915 silly addNameRange     '0.13.0',
+915 silly addNameRange     '0.13.1',
+915 silly addNameRange     '0.13.2',
+915 silly addNameRange     '0.13.3',
+915 silly addNameRange     '1.0.0-alpha1',
+915 silly addNameRange     '1.0.0-alpha2',
+915 silly addNameRange     '1.0.0-beta1',
+915 silly addNameRange     '1.0.0-beta2',
+915 silly addNameRange     '1.0.0-beta3',
+915 silly addNameRange     '1.0.0-beta4',
+915 silly addNameRange     '1.0.0-rc1',
+915 silly addNameRange     '0.13.4',
+915 silly addNameRange     '1.0.0-rc2',
+915 silly addNameRange     '1.0.0-rc3',
+915 silly addNameRange     '0.13.5',
+915 silly addNameRange     '1.0.0-rc4',
+915 silly addNameRange     '1.0.0' ] ]
+916 silly addNamed react-router@1.0.0
+917 verbose addNamed "1.0.0" is a plain semver version for react-router
+918 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux\3.0.4\package\package.json written
+919 silly cache afterAdd react-redux@2.1.2
+920 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-redux\2.1.2\package\package.json not in flight; writing
+921 silly cache afterAdd react-router@1.0.0
+922 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-router\1.0.0\package\package.json not in flight; writing
+923 http 304 http://registry.npmjs.org/babel-loader
+924 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+924 verbose headers   via: '1.1 varnish',
+924 verbose headers   'cache-control': 'max-age=60',
+924 verbose headers   etag: '"XALLTRYZCE96U2MH9BC5VORY"',
+924 verbose headers   age: '0',
+924 verbose headers   connection: 'keep-alive',
+924 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+924 verbose headers   'x-cache': 'HIT',
+924 verbose headers   'x-cache-hits': '1',
+924 verbose headers   'x-timer': 'S1449120896.279167,VS0,VE821',
+924 verbose headers   vary: 'Accept' }
+925 silly get cb [ 304,
+925 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+925 silly get     via: '1.1 varnish',
+925 silly get     'cache-control': 'max-age=60',
+925 silly get     etag: '"XALLTRYZCE96U2MH9BC5VORY"',
+925 silly get     age: '0',
+925 silly get     connection: 'keep-alive',
+925 silly get     'x-served-by': 'cache-itm7424-ITM',
+925 silly get     'x-cache': 'HIT',
+925 silly get     'x-cache-hits': '1',
+925 silly get     'x-timer': 'S1449120896.279167,VS0,VE821',
+925 silly get     vary: 'Accept' } ]
+926 verbose etag http://registry.npmjs.org/babel-loader from cache
+927 verbose get saving babel-loader to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\babel-loader\.cache.json
+928 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-redux\2.1.2\package\package.json written
+929 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\react-router\1.0.0\package\package.json written
+930 silly addNameRange number 2 { name: 'babel-loader', range: '>=5.3.2 <6.0.0', hasData: true }
+931 silly addNameRange versions [ 'babel-loader',
+931 silly addNameRange   [ '4.0.0',
+931 silly addNameRange     '4.1.0',
+931 silly addNameRange     '4.2.0',
+931 silly addNameRange     '4.3.0',
+931 silly addNameRange     '5.0.0',
+931 silly addNameRange     '5.1.0',
+931 silly addNameRange     '5.1.2',
+931 silly addNameRange     '5.1.3',
+931 silly addNameRange     '5.1.4',
+931 silly addNameRange     '5.2.0',
+931 silly addNameRange     '5.2.1',
+931 silly addNameRange     '5.2.2',
+931 silly addNameRange     '5.3.0',
+931 silly addNameRange     '5.3.1',
+931 silly addNameRange     '5.3.2',
+931 silly addNameRange     '5.3.3',
+931 silly addNameRange     '6.0.0',
+931 silly addNameRange     '6.0.1',
+931 silly addNameRange     '6.1.0',
+931 silly addNameRange     '5.4.0',
+931 silly addNameRange     '6.2.0' ] ]
+932 silly addNamed babel-loader@5.4.0
+933 verbose addNamed "5.4.0" is a plain semver version for babel-loader
+934 silly cache afterAdd babel-loader@5.4.0
+935 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-loader\5.4.0\package\package.json not in flight; writing
+936 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-loader\5.4.0\package\package.json written
+937 http 304 http://registry.npmjs.org/humps
+938 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+938 verbose headers   via: '1.1 varnish',
+938 verbose headers   'cache-control': 'max-age=60',
+938 verbose headers   etag: '"CPITUGUIYZKBCN0WHXNG081KE"',
+938 verbose headers   age: '0',
+938 verbose headers   connection: 'keep-alive',
+938 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+938 verbose headers   'x-cache': 'MISS',
+938 verbose headers   'x-cache-hits': '0',
+938 verbose headers   'x-timer': 'S1449120896.275239,VS0,VE834',
+938 verbose headers   vary: 'Accept' }
+939 silly get cb [ 304,
+939 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+939 silly get     via: '1.1 varnish',
+939 silly get     'cache-control': 'max-age=60',
+939 silly get     etag: '"CPITUGUIYZKBCN0WHXNG081KE"',
+939 silly get     age: '0',
+939 silly get     connection: 'keep-alive',
+939 silly get     'x-served-by': 'cache-itm7420-ITM',
+939 silly get     'x-cache': 'MISS',
+939 silly get     'x-cache-hits': '0',
+939 silly get     'x-timer': 'S1449120896.275239,VS0,VE834',
+939 silly get     vary: 'Accept' } ]
+940 verbose etag http://registry.npmjs.org/humps from cache
+941 verbose get saving humps to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\humps\.cache.json
+942 silly addNameRange number 2 { name: 'humps', range: '>=0.6.0 <0.7.0', hasData: true }
+943 silly addNameRange versions [ 'humps',
+943 silly addNameRange   [ '0.0.1', '0.4.2', '0.5.1', '0.5.2', '0.6.0', '0.7.0', '1.0.0' ] ]
+944 silly addNamed humps@0.6.0
+945 verbose addNamed "0.6.0" is a plain semver version for humps
+946 silly cache afterAdd humps@0.6.0
+947 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\humps\0.6.0\package\package.json not in flight; writing
+948 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\humps\0.6.0\package\package.json written
+949 http 404 http://registry.npmjs.org/react_
+950 verbose headers { 'content-type': 'application/json',
+950 verbose headers   'cache-control': 'max-age=0',
+950 verbose headers   'content-length': '2',
+950 verbose headers   'accept-ranges': 'bytes',
+950 verbose headers   date: 'Thu, 03 Dec 2015 05:34:57 GMT',
+950 verbose headers   via: '1.1 varnish',
+950 verbose headers   age: '0',
+950 verbose headers   connection: 'keep-alive',
+950 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+950 verbose headers   'x-cache': 'MISS',
+950 verbose headers   'x-cache-hits': '0',
+950 verbose headers   'x-timer': 'S1449120896.274001,VS0,VE848' }
+951 silly get cb [ 404,
+951 silly get   { 'content-type': 'application/json',
+951 silly get     'cache-control': 'max-age=0',
+951 silly get     'content-length': '2',
+951 silly get     'accept-ranges': 'bytes',
+951 silly get     date: 'Thu, 03 Dec 2015 05:34:57 GMT',
+951 silly get     via: '1.1 varnish',
+951 silly get     age: '0',
+951 silly get     connection: 'keep-alive',
+951 silly get     'x-served-by': 'cache-itm7420-ITM',
+951 silly get     'x-cache': 'MISS',
+951 silly get     'x-cache-hits': '0',
+951 silly get     'x-timer': 'S1449120896.274001,VS0,VE848' } ]
+952 http 304 http://registry.npmjs.org/webpack
+953 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+953 verbose headers   via: '1.1 varnish',
+953 verbose headers   'cache-control': 'max-age=60',
+953 verbose headers   etag: '"9OSVJUI6DWVO8IY3MU0AIJJB"',
+953 verbose headers   age: '0',
+953 verbose headers   connection: 'keep-alive',
+953 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+953 verbose headers   'x-cache': 'HIT',
+953 verbose headers   'x-cache-hits': '1',
+953 verbose headers   'x-timer': 'S1449120896.277821,VS0,VE867',
+953 verbose headers   vary: 'Accept' }
+954 silly get cb [ 304,
+954 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+954 silly get     via: '1.1 varnish',
+954 silly get     'cache-control': 'max-age=60',
+954 silly get     etag: '"9OSVJUI6DWVO8IY3MU0AIJJB"',
+954 silly get     age: '0',
+954 silly get     connection: 'keep-alive',
+954 silly get     'x-served-by': 'cache-itm7426-ITM',
+954 silly get     'x-cache': 'HIT',
+954 silly get     'x-cache-hits': '1',
+954 silly get     'x-timer': 'S1449120896.277821,VS0,VE867',
+954 silly get     vary: 'Accept' } ]
+955 verbose etag http://registry.npmjs.org/webpack from cache
+956 verbose get saving webpack to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\webpack\.cache.json
+957 http 304 http://registry.npmjs.org/concurrently
+958 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+958 verbose headers   via: '1.1 varnish',
+958 verbose headers   'cache-control': 'max-age=60',
+958 verbose headers   etag: '"4WEA7CJBRFDANONB2EYDDGNG7"',
+958 verbose headers   age: '0',
+958 verbose headers   connection: 'keep-alive',
+958 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+958 verbose headers   'x-cache': 'MISS',
+958 verbose headers   'x-cache-hits': '0',
+958 verbose headers   'x-timer': 'S1449120896.281393,VS0,VE870',
+958 verbose headers   vary: 'Accept' }
+959 silly get cb [ 304,
+959 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+959 silly get     via: '1.1 varnish',
+959 silly get     'cache-control': 'max-age=60',
+959 silly get     etag: '"4WEA7CJBRFDANONB2EYDDGNG7"',
+959 silly get     age: '0',
+959 silly get     connection: 'keep-alive',
+959 silly get     'x-served-by': 'cache-itm7427-ITM',
+959 silly get     'x-cache': 'MISS',
+959 silly get     'x-cache-hits': '0',
+959 silly get     'x-timer': 'S1449120896.281393,VS0,VE870',
+959 silly get     vary: 'Accept' } ]
+960 verbose etag http://registry.npmjs.org/concurrently from cache
+961 verbose get saving concurrently to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\concurrently\.cache.json
+962 silly addNameRange number 2 { name: 'concurrently', range: '>=0.1.1 <0.2.0', hasData: true }
+963 silly addNameRange versions [ 'concurrently',
+963 silly addNameRange   [ '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.1.0', '0.1.1', '1.0.0' ] ]
+964 silly addNamed concurrently@0.1.1
+965 verbose addNamed "0.1.1" is a plain semver version for concurrently
+966 silly addNameRange number 2 { name: 'webpack', range: '>=1.12.2 <2.0.0', hasData: true }
+967 silly addNameRange versions [ 'webpack',
+967 silly addNameRange   [ '0.1.0',
+967 silly addNameRange     '0.1.1',
+967 silly addNameRange     '0.1.2',
+967 silly addNameRange     '0.1.3',
+967 silly addNameRange     '0.1.4',
+967 silly addNameRange     '0.1.5',
+967 silly addNameRange     '0.1.6',
+967 silly addNameRange     '0.2.0',
+967 silly addNameRange     '0.2.1',
+967 silly addNameRange     '0.2.2',
+967 silly addNameRange     '0.2.3',
+967 silly addNameRange     '0.2.4',
+967 silly addNameRange     '0.2.6',
+967 silly addNameRange     '0.2.7',
+967 silly addNameRange     '0.2.8',
+967 silly addNameRange     '0.3.0',
+967 silly addNameRange     '0.3.1',
+967 silly addNameRange     '0.3.2',
+967 silly addNameRange     '0.3.3',
+967 silly addNameRange     '0.3.4',
+967 silly addNameRange     '0.3.6',
+967 silly addNameRange     '0.3.7',
+967 silly addNameRange     '0.3.8',
+967 silly addNameRange     '0.3.9',
+967 silly addNameRange     '0.3.10',
+967 silly addNameRange     '0.3.11',
+967 silly addNameRange     '0.3.12',
+967 silly addNameRange     '0.3.13',
+967 silly addNameRange     '0.3.14',
+967 silly addNameRange     '0.3.15',
+967 silly addNameRange     '0.3.16',
+967 silly addNameRange     '0.3.17',
+967 silly addNameRange     '0.3.18',
+967 silly addNameRange     '0.3.19',
+967 silly addNameRange     '0.3.20',
+967 silly addNameRange     '0.4.0',
+967 silly addNameRange     '0.4.1',
+967 silly addNameRange     '0.4.2',
+967 silly addNameRange     '0.4.3',
+967 silly addNameRange     '0.4.4',
+967 silly addNameRange     '0.4.5',
+967 silly addNameRange     '0.4.6',
+967 silly addNameRange     '0.4.7',
+967 silly addNameRange     '0.4.8',
+967 silly addNameRange     '0.4.9',
+967 silly addNameRange     '0.4.10',
+967 silly addNameRange     '0.4.11',
+967 silly addNameRange     '0.4.12',
+967 silly addNameRange     '0.4.13',
+967 silly addNameRange     '0.4.14',
+967 silly addNameRange     '0.4.15',
+967 silly addNameRange     '0.4.16',
+967 silly addNameRange     '0.4.17',
+967 silly addNameRange     '0.4.18',
+967 silly addNameRange     '0.4.19',
+967 silly addNameRange     '0.4.20',
+967 silly addNameRange     '0.4.21',
+967 silly addNameRange     '0.4.23',
+967 silly addNameRange     '0.4.24',
+967 silly addNameRange     '0.4.25',
+967 silly addNameRange     '0.5.0',
+967 silly addNameRange     '0.5.1',
+967 silly addNameRange     '0.5.2',
+967 silly addNameRange     '0.5.3',
+967 silly addNameRange     '0.5.4',
+967 silly addNameRange     '0.5.5',
+967 silly addNameRange     '0.5.6',
+967 silly addNameRange     '0.5.7',
+967 silly addNameRange     '0.5.8',
+967 silly addNameRange     '0.5.10',
+967 silly addNameRange     '0.6.0',
+967 silly addNameRange     '0.6.1',
+967 silly addNameRange     '0.6.2',
+967 silly addNameRange     '0.7.0-beta',
+967 silly addNameRange     '0.7.0-beta2',
+967 silly addNameRange     '0.7.0-beta3',
+967 silly addNameRange     '0.7.0-beta4',
+967 silly addNameRange     '0.7.0-beta5',
+967 silly addNameRange     '0.7.0-beta6',
+967 silly addNameRange     '0.7.0-beta7',
+967 silly addNameRange     '0.7.0-beta8',
+967 silly addNameRange     '0.7.0',
+967 silly addNameRange     '0.7.1',
+967 silly addNameRange     '0.7.2',
+967 silly addNameRange     '0.7.3',
+967 silly addNameRange     '0.7.4',
+967 silly addNameRange     '0.7.5',
+967 silly addNameRange     '0.7.6',
+967 silly addNameRange     '0.7.7',
+967 silly addNameRange     '0.7.8',
+967 silly addNameRange     '0.7.9',
+967 silly addNameRange     '0.7.11',
+967 silly addNameRange     '0.7.12',
+967 silly addNameRange     '0.7.13',
+967 silly addNameRange     '0.7.14',
+967 silly addNameRange     '0.7.15',
+967 silly addNameRange     '0.7.16',
+967 silly addNameRange     '0.7.17',
+967 silly addNameRange     '0.8.0-beta1',
+967 silly addNameRange     '0.8.0-beta2',
+967 silly addNameRange     '0.8.0-beta3',
+967 silly addNameRange     '0.8.0-beta4',
+967 silly addNameRange     '0.8.0',
+967 silly addNameRange     '0.8.2',
+967 silly addNameRange     '0.8.3',
+967 silly addNameRange     '0.9.0-beta1',
+967 silly addNameRange     '0.9.0-beta2',
+967 silly addNameRange     '0.9.0-beta4',
+967 silly addNameRange     '0.9.0-beta5',
+967 silly addNameRange     '0.9.0-beta6',
+967 silly addNameRange     '0.9.0-beta7',
+967 silly addNameRange     '0.9.0-beta8',
+967 silly addNameRange     '0.9.0-beta9',
+967 silly addNameRange     '0.9.0-beta10',
+967 silly addNameRange     '0.9.0-beta11',
+967 silly addNameRange     '0.9.0-beta12',
+967 silly addNameRange     '0.9.0-beta13',
+967 silly addNameRange     '0.9.0-beta14',
+967 silly addNameRange     '0.9.0-beta15',
+967 silly addNameRange     '0.9.0-beta16',
+967 silly addNameRange     '0.9.0-beta17',
+967 silly addNameRange     '0.9.0-beta18',
+967 silly addNameRange     '0.9.0-beta19',
+967 silly addNameRange     '0.9.0-beta20',
+967 silly addNameRange     '0.9.0-beta21',
+967 silly addNameRange     '0.9.0-beta22',
+967 silly addNameRange     '0.9.0-beta23',
+967 silly addNameRange     '0.9.0-beta24',
+967 silly addNameRange     '0.9.0-beta25',
+967 silly addNameRange     '0.9.0-beta26',
+967 silly addNameRange     '0.9.0-beta27',
+967 silly addNameRange     '0.9.0-beta28',
+967 silly addNameRange     '0.9.0-beta29',
+967 silly addNameRange     '0.9.0-beta30',
+967 silly addNameRange     '0.9.0-beta31',
+967 silly addNameRange     '0.9.0-beta32',
+967 silly addNameRange     '0.9.0-beta33',
+967 silly addNameRange     '0.9.0-beta34',
+967 silly addNameRange     '0.9.0-beta35',
+967 silly addNameRange     '0.9.0-beta36',
+967 silly addNameRange     '0.9.0-beta37',
+967 silly addNameRange     '0.9.0-beta38',
+967 silly addNameRange     '0.9.0',
+967 silly addNameRange     '0.9.1',
+967 silly addNameRange     '0.9.2',
+967 silly addNameRange     '0.9.3',
+967 silly addNameRange     '0.10.0-beta2',
+967 silly addNameRange     '0.10.0-beta3',
+967 silly addNameRange     '0.10.0-beta5',
+967 silly addNameRange     '0.10.0-beta6',
+967 silly addNameRange     '0.10.0-beta7',
+967 silly addNameRange     '0.10.0-beta8',
+967 silly addNameRange     '0.10.0-beta9',
+967 silly addNameRange     '0.10.0-beta10',
+967 silly addNameRange     '0.10.0-beta11',
+967 silly addNameRange     '0.10.0-beta12',
+967 silly addNameRange     '0.10.0-beta13',
+967 silly addNameRange     '0.10.0-beta14',
+967 silly addNameRange     '0.10.0-beta15',
+967 silly addNameRange     '0.10.0-beta16',
+967 silly addNameRange     '0.10.0-beta17',
+967 silly addNameRange     '0.10.0-beta18',
+967 silly addNameRange     '0.10.0-beta19',
+967 silly addNameRange     '0.10.0-beta20',
+967 silly addNameRange     '0.10.0-beta21',
+967 silly addNameRange     '0.10.0-beta22',
+967 silly addNameRange     '0.10.0-beta23',
+967 silly addNameRange     '0.10.0-beta24',
+967 silly addNameRange     '0.10.0-beta25',
+967 silly addNameRange     '0.10.0',
+967 silly addNameRange     '0.11.0-beta1',
+967 silly addNameRange     '0.11.0-beta2',
+967 silly addNameRange     '0.11.0-beta3',
+967 silly addNameRange     '0.11.0-beta4',
+967 silly addNameRange     '0.11.0-beta5',
+967 silly addNameRange     '0.11.0-beta6',
+967 silly addNameRange     '0.11.0-beta7',
+967 silly addNameRange     '0.11.0-beta8',
+967 silly addNameRange     '0.11.0-beta9',
+967 silly addNameRange     '0.11.0-beta10',
+967 silly addNameRange     '0.11.0-beta11',
+967 silly addNameRange     '0.11.0-beta12',
+967 silly addNameRange     '0.11.0-beta13',
+967 silly addNameRange     '0.11.0-beta14',
+967 silly addNameRange     '0.11.0-beta15',
+967 silly addNameRange     '0.11.0-beta16',
+967 silly addNameRange     '0.11.0-beta17',
+967 silly addNameRange     '0.11.0-beta18',
+967 silly addNameRange     '0.11.0-beta19',
+967 silly addNameRange     '0.11.0-beta20',
+967 silly addNameRange     '0.11.0-beta21',
+967 silly addNameRange     '0.11.0-beta22',
+967 silly addNameRange     '0.11.0-beta23',
+967 silly addNameRange     '0.11.0-beta24',
+967 silly addNameRange     '0.11.0-beta25',
+967 silly addNameRange     '0.11.0-beta26',
+967 silly addNameRange     '0.11.0-beta27',
+967 silly addNameRange     '0.11.0-beta28',
+967 silly addNameRange     '0.11.0-beta29',
+967 silly addNameRange     '0.11.0',
+967 silly addNameRange     '0.11.1',
+967 silly addNameRange     '0.11.2',
+967 silly addNameRange     '0.11.3',
+967 silly addNameRange     '0.11.4',
+967 silly addNameRange     '0.11.5',
+967 silly addNameRange     '0.11.6',
+967 silly addNameRange     '0.11.7',
+967 silly addNameRange     '0.11.8',
+967 silly addNameRange     '0.11.9',
+967 silly addNameRange     '0.11.10',
+967 silly addNameRange     '0.11.11',
+967 silly addNameRange     '0.11.12',
+967 silly addNameRange     '0.11.13',
+967 silly addNameRange     '0.11.14',
+967 silly addNameRange     '0.11.15',
+967 silly addNameRange     '1.0.0-beta1',
+967 silly addNameRange     '1.0.0-beta2',
+967 silly addNameRange     '1.0.0-beta3',
+967 silly addNameRange     '1.0.0-beta4',
+967 silly addNameRange     '0.11.16',
+967 silly addNameRange     '0.11.17',
+967 silly addNameRange     '0.11.18',
+967 silly addNameRange     '1.0.0-beta5',
+967 silly addNameRange     '1.0.0-beta6',
+967 silly addNameRange     '1.0.0-beta7',
+967 silly addNameRange     '1.0.0-beta8',
+967 silly addNameRange     '1.0.0-beta9',
+967 silly addNameRange     '1.0.0-rc1',
+967 silly addNameRange     '1.0.0-rc2',
+967 silly addNameRange     '1.0.0-rc3',
+967 silly addNameRange     '1.0.0-rc4',
+967 silly addNameRange     '1.0.0-rc5',
+967 silly addNameRange     '1.0.0-rc7',
+967 silly addNameRange     '1.0.0-rc8',
+967 silly addNameRange     '1.0.0-rc9',
+967 silly addNameRange     '1.0.0-rc11',
+967 silly addNameRange     '1.0.0-rc12',
+967 silly addNameRange     '1.0.0',
+967 silly addNameRange     '1.0.1',
+967 silly addNameRange     '1.0.3',
+967 silly addNameRange     '1.0.4',
+967 silly addNameRange     '1.0.5',
+967 silly addNameRange     '1.1.0-beta1',
+967 silly addNameRange     '1.1.0-beta2',
+967 silly addNameRange     '1.1.0-beta3',
+967 silly addNameRange     '1.1.0-beta4',
+967 silly addNameRange     '1.1.0-beta5',
+967 silly addNameRange     '1.1.0-beta6',
+967 silly addNameRange     '1.1.0-beta7',
+967 silly addNameRange     '1.1.0-beta8',
+967 silly addNameRange     '1.1.0-beta9',
+967 silly addNameRange     '1.1.0-beta10',
+967 silly addNameRange     '1.1.0-beta12',
+967 silly addNameRange     '1.1.0',
+967 silly addNameRange     '1.1.1',
+967 silly addNameRange     '1.1.2',
+967 silly addNameRange     '1.1.3',
+967 silly addNameRange     '1.1.4',
+967 silly addNameRange     '1.1.5',
+967 silly addNameRange     '1.1.6',
+967 silly addNameRange     '1.1.7',
+967 silly addNameRange     '1.1.8',
+967 silly addNameRange     '1.1.9',
+967 silly addNameRange     '1.1.10',
+967 silly addNameRange     '1.1.11',
+967 silly addNameRange     '1.2.0-beta1',
+967 silly addNameRange     '1.2.0-beta2',
+967 silly addNameRange     '1.2.0-beta4',
+967 silly addNameRange     '1.2.0-beta5',
+967 silly addNameRange     '1.2.0-beta6',
+967 silly addNameRange     '1.3.0-beta1',
+967 silly addNameRange     '1.3.0-beta2',
+967 silly addNameRange     '1.3.0-beta3',
+967 silly addNameRange     '1.3.0-beta4',
+967 silly addNameRange     '1.3.0-beta5',
+967 silly addNameRange     '1.3.0-beta6',
+967 silly addNameRange     '1.3.0-beta7',
+967 silly addNameRange     '1.3.0-beta8',
+967 silly addNameRange     '1.3.0-beta9',
+967 silly addNameRange     '1.3.1-beta1',
+967 silly addNameRange     '1.3.1-beta2',
+967 silly addNameRange     '1.3.1-beta3',
+967 silly addNameRange     '1.3.1-beta4',
+967 silly addNameRange     '1.3.1-beta5',
+967 silly addNameRange     '1.3.1-beta6',
+967 silly addNameRange     '1.3.1-beta7',
+967 silly addNameRange     '1.3.1-beta8',
+967 silly addNameRange     '1.3.1-beta9',
+967 silly addNameRange     '1.3.2-beta1',
+967 silly addNameRange     '1.3.2-beta2',
+967 silly addNameRange     '1.3.2-beta3',
+967 silly addNameRange     '1.3.2-beta4',
+967 silly addNameRange     '1.3.2-beta5',
+967 silly addNameRange     '1.3.2-beta6',
+967 silly addNameRange     '1.3.2-beta7',
+967 silly addNameRange     '1.3.2-beta8',
+967 silly addNameRange     '1.3.2-beta9',
+967 silly addNameRange     '1.3.3-beta1',
+967 silly addNameRange     '1.3.3-beta2',
+967 silly addNameRange     '1.3.4',
+967 silly addNameRange     '1.3.5',
+967 silly addNameRange     '1.3.6',
+967 silly addNameRange     '1.3.7',
+967 silly addNameRange     '1.4.0-beta1',
+967 silly addNameRange     '1.4.0-beta2',
+967 silly addNameRange     '1.4.0-beta3',
+967 silly addNameRange     '1.4.0-beta4',
+967 silly addNameRange     '1.4.0-beta5',
+967 silly addNameRange     '1.4.0-beta6',
+967 silly addNameRange     '1.4.0-beta7',
+967 silly addNameRange     '1.4.0-beta8',
+967 silly addNameRange     '1.4.0-beta9',
+967 silly addNameRange     '1.4.0-beta10',
+967 silly addNameRange     '1.4.1-beta1',
+967 silly addNameRange     '1.4.2',
+967 silly addNameRange     '1.4.3',
+967 silly addNameRange     '1.4.4',
+967 silly addNameRange     '1.4.5',
+967 silly addNameRange     '1.4.6',
+967 silly addNameRange     '1.4.7',
+967 silly addNameRange     '1.4.8',
+967 silly addNameRange     '1.4.9',
+967 silly addNameRange     '1.4.10',
+967 silly addNameRange     '1.4.11',
+967 silly addNameRange     '1.4.12',
+967 silly addNameRange     '1.4.13',
+967 silly addNameRange     '1.4.14',
+967 silly addNameRange     '1.4.15',
+967 silly addNameRange     '1.5.0',
+967 silly addNameRange     '1.5.1',
+967 silly addNameRange     '1.5.2',
+967 silly addNameRange     '1.5.3',
+967 silly addNameRange     '1.6.0',
+967 silly addNameRange     '1.7.0',
+967 silly addNameRange     '1.7.1',
+967 silly addNameRange     '1.7.2',
+967 silly addNameRange     '1.7.3',
+967 silly addNameRange     '1.8.0',
+967 silly addNameRange     '1.8.1',
+967 silly addNameRange     '1.8.2',
+967 silly addNameRange     '1.8.3',
+967 silly addNameRange     '1.8.4',
+967 silly addNameRange     '1.8.5',
+967 silly addNameRange     '1.8.6',
+967 silly addNameRange     '1.8.7',
+967 silly addNameRange     '1.8.8',
+967 silly addNameRange     '1.8.9',
+967 silly addNameRange     '1.8.10',
+967 silly addNameRange     '1.8.11',
+967 silly addNameRange     '1.9.0',
+967 silly addNameRange     '1.9.1',
+967 silly addNameRange     '1.9.2',
+967 silly addNameRange     '1.9.3',
+967 silly addNameRange     '1.9.4',
+967 silly addNameRange     '1.9.5',
+967 silly addNameRange     '1.9.6',
+967 silly addNameRange     '1.9.7',
+967 silly addNameRange     '1.9.8',
+967 silly addNameRange     '1.9.9',
+967 silly addNameRange     '1.9.10',
+967 silly addNameRange     '1.9.11',
+967 silly addNameRange     '1.9.12',
+967 silly addNameRange     '1.9.13',
+967 silly addNameRange     '1.10.0',
+967 silly addNameRange     '1.10.1',
+967 silly addNameRange     '1.10.2',
+967 silly addNameRange     '1.10.3',
+967 silly addNameRange     '1.10.4',
+967 silly addNameRange     '1.10.5',
+967 silly addNameRange     '1.11.0',
+967 silly addNameRange     '1.12.0',
+967 silly addNameRange     '1.12.1',
+967 silly addNameRange     '1.12.2',
+967 silly addNameRange     '2.0.0-beta',
+967 silly addNameRange     '1.12.3',
+967 silly addNameRange     '1.12.4',
+967 silly addNameRange     '1.12.5',
+967 silly addNameRange     '1.12.6',
+967 silly addNameRange     '1.12.7',
+967 silly addNameRange     '1.12.8',
+967 silly addNameRange     '1.12.9',
+967 silly addNameRange     '2.0.1-beta' ] ]
+968 silly addNamed webpack@1.12.9
+969 verbose addNamed "1.12.9" is a plain semver version for webpack
+970 silly cache afterAdd concurrently@0.1.1
+971 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\concurrently\0.1.1\package\package.json not in flight; writing
+972 silly cache afterAdd webpack@1.12.9
+973 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack\1.12.9\package\package.json not in flight; writing
+974 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\concurrently\0.1.1\package\package.json written
+975 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\webpack\1.12.9\package\package.json written
+976 http 304 http://registry.npmjs.org/babel-plugin-react-transform
+977 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+977 verbose headers   via: '1.1 varnish',
+977 verbose headers   'cache-control': 'max-age=60',
+977 verbose headers   etag: '"7HQA9AHU18TLBM6VPH28PODH7"',
+977 verbose headers   age: '0',
+977 verbose headers   connection: 'keep-alive',
+977 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+977 verbose headers   'x-cache': 'MISS',
+977 verbose headers   'x-cache-hits': '0',
+977 verbose headers   'x-timer': 'S1449120896.274829,VS0,VE997',
+977 verbose headers   vary: 'Accept' }
+978 silly get cb [ 304,
+978 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+978 silly get     via: '1.1 varnish',
+978 silly get     'cache-control': 'max-age=60',
+978 silly get     etag: '"7HQA9AHU18TLBM6VPH28PODH7"',
+978 silly get     age: '0',
+978 silly get     connection: 'keep-alive',
+978 silly get     'x-served-by': 'cache-itm7426-ITM',
+978 silly get     'x-cache': 'MISS',
+978 silly get     'x-cache-hits': '0',
+978 silly get     'x-timer': 'S1449120896.274829,VS0,VE997',
+978 silly get     vary: 'Accept' } ]
+979 verbose etag http://registry.npmjs.org/babel-plugin-react-transform from cache
+980 verbose get saving babel-plugin-react-transform to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\babel-plugin-react-transform\.cache.json
+981 http 304 http://registry.npmjs.org/redux-devtools-log-monitor
+982 verbose headers { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+982 verbose headers   via: '1.1 varnish',
+982 verbose headers   'cache-control': 'max-age=60',
+982 verbose headers   etag: '"9RNCGYMX0BX5MSXUEBMDEJBZ5"',
+982 verbose headers   age: '0',
+982 verbose headers   connection: 'keep-alive',
+982 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+982 verbose headers   'x-cache': 'MISS',
+982 verbose headers   'x-cache-hits': '0',
+982 verbose headers   'x-timer': 'S1449120896.278220,VS0,VE995',
+982 verbose headers   vary: 'Accept' }
+983 silly get cb [ 304,
+983 silly get   { date: 'Thu, 03 Dec 2015 05:34:56 GMT',
+983 silly get     via: '1.1 varnish',
+983 silly get     'cache-control': 'max-age=60',
+983 silly get     etag: '"9RNCGYMX0BX5MSXUEBMDEJBZ5"',
+983 silly get     age: '0',
+983 silly get     connection: 'keep-alive',
+983 silly get     'x-served-by': 'cache-itm7421-ITM',
+983 silly get     'x-cache': 'MISS',
+983 silly get     'x-cache-hits': '0',
+983 silly get     'x-timer': 'S1449120896.278220,VS0,VE995',
+983 silly get     vary: 'Accept' } ]
+984 verbose etag http://registry.npmjs.org/redux-devtools-log-monitor from cache
+985 verbose get saving redux-devtools-log-monitor to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\redux-devtools-log-monitor\.cache.json
+986 silly addNameRange number 2 { name: 'babel-plugin-react-transform',
+986 silly addNameRange   range: '>=1.1.1 <2.0.0',
+986 silly addNameRange   hasData: true }
+987 silly addNameRange versions [ 'babel-plugin-react-transform',
+987 silly addNameRange   [ '1.0.0',
+987 silly addNameRange     '1.0.1',
+987 silly addNameRange     '1.0.2',
+987 silly addNameRange     '1.0.3',
+987 silly addNameRange     '1.0.4',
+987 silly addNameRange     '1.0.5',
+987 silly addNameRange     '1.1.0',
+987 silly addNameRange     '1.1.1' ] ]
+988 silly addNamed babel-plugin-react-transform@1.1.1
+989 verbose addNamed "1.1.1" is a plain semver version for babel-plugin-react-transform
+990 silly addNameRange number 2 { name: 'redux-devtools-log-monitor',
+990 silly addNameRange   range: '>=1.0.0-beta-3 <2.0.0',
+990 silly addNameRange   hasData: true }
+991 silly addNameRange versions [ 'redux-devtools-log-monitor',
+991 silly addNameRange   [ '1.0.0-alpha',
+991 silly addNameRange     '1.0.0-alpha-1',
+991 silly addNameRange     '1.0.0-alpha-2',
+991 silly addNameRange     '1.0.0-alpha-3',
+991 silly addNameRange     '1.0.0-alpha-4',
+991 silly addNameRange     '1.0.0-alpha-5',
+991 silly addNameRange     '1.0.0-alpha-6',
+991 silly addNameRange     '1.0.0-alpha-7',
+991 silly addNameRange     '1.0.0-alpha-8',
+991 silly addNameRange     '1.0.0-beta-1',
+991 silly addNameRange     '1.0.0-beta-2',
+991 silly addNameRange     '1.0.0-beta-3' ] ]
+992 silly addNamed redux-devtools-log-monitor@1.0.0-beta-3
+993 verbose addNamed "1.0.0-beta-3" is a plain semver version for redux-devtools-log-monitor
+994 silly cache afterAdd babel-plugin-react-transform@1.1.1
+995 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-plugin-react-transform\1.1.1\package\package.json not in flight; writing
+996 silly cache afterAdd redux-devtools-log-monitor@1.0.0-beta-3
+997 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools-log-monitor\1.0.0-beta-3\package\package.json not in flight; writing
+998 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-plugin-react-transform\1.1.1\package\package.json written
+999 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\redux-devtools-log-monitor\1.0.0-beta-3\package\package.json written
+1000 verbose stack Error: Registry returned 404 for GET on http://registry.npmjs.org/react-dom_
+1000 verbose stack     at makeError (d:\nodjs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+1000 verbose stack     at CachingRegistryClient.<anonymous> (d:\nodjs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+1000 verbose stack     at Request._callback (d:\nodjs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+1000 verbose stack     at Request.self.callback (d:\nodjs\node_modules\npm\node_modules\request\request.js:198:22)
+1000 verbose stack     at emitTwo (events.js:87:13)
+1000 verbose stack     at Request.emit (events.js:172:7)
+1000 verbose stack     at Request.<anonymous> (d:\nodjs\node_modules\npm\node_modules\request\request.js:1063:14)
+1000 verbose stack     at emitOne (events.js:82:20)
+1000 verbose stack     at Request.emit (events.js:169:7)
+1000 verbose stack     at IncomingMessage.<anonymous> (d:\nodjs\node_modules\npm\node_modules\request\request.js:1009:12)
+1001 verbose statusCode 404
+1002 verbose pkgid react-dom_
+1003 verbose cwd e:\reactNative\reactRedux
+1004 error Windows_NT 6.1.7601
+1005 error argv "d:\\nodjs\\node.exe" "d:\\nodjs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1006 error node v4.2.1
+1007 error npm  v2.14.7
+1008 error code E404
+1009 error 404 Registry returned 404 for GET on http://registry.npmjs.org/react-dom_
+1009 error 404
+1009 error 404 'react-dom_' is not in the npm registry.
+1009 error 404 You should bug the author to publish it (or use the name yourself!)
+1009 error 404 It was specified as a dependency of 'reactjs'
+1009 error 404
+1009 error 404 Note that you can also install from a
+1009 error 404 tarball, folder, http url, or git url.
+1010 verbose exit [ 1, true ]
+>>>>>>> 7d8c0c1afbfce8d09ce46dc0911dad09ea9ea4a9
